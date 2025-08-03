@@ -62,11 +62,29 @@ logs/
 *.tmp
 *.temp
 
-# Large data files (optional - uncomment if you want to exclude them)
-# data/geojson/*.geojson
-# results_test/
-# cache/
-
-# Keep some important data files but exclude large ones
+# Large data files - exclude to stay under GitHub's 100MB limit
 data/geojson/*.geojson
-!data/geojson/strassen_mit_adressenV3.geojson 
+!data/geojson/strassen_mit_adressenV3.geojson
+
+# Exclude large result files
+results/
+results_test/
+cache/
+
+# Exclude large JSON files
+*.json
+!data/json/*.json
+!scenarios/*.json
+!simulation_outputs/*.json
+
+# Exclude large data files
+*.geojson
+!data/geojson/strassen_mit_adressenV3.geojson
+!results_test/dh_analysis/*.geojson
+!results_test/hp_analysis/*.geojson
+
+# Exclude large binary files
+*.gpickle
+*.graphml
+*.pickle
+*.pkl 
