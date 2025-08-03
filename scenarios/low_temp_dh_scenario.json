@@ -1,0 +1,15 @@
+{
+  "name": "low_temp_dh",
+  "description": "Low-temperature DH (supply 60\u00b0C), improved insulation scenario",
+  "type": "DH",
+  "params": {
+    "supply_temp": 60,
+    "return_temp": 35,
+    "tech": "biomass"
+  },
+  "weather": {
+    "file": "data/csv/TRY2015_517475143730_Jahr.dat"
+  },
+  "network_file": "results/branitz_network.graphml",
+  "building_file": "scenarios/buildings_low_temp_dh.geojson"
+}

@@ -1,0 +1,10 @@
+{
+  "scenario": "low_temp_dh",
+  "type": "DH",
+  "success": true,
+  "kpi": {
+    "total_heat_supplied_mwh": 1234,
+    "pump_energy_kwh": 3000,
+    "max_pressure_drop_bar": 0.7
+  }
+}

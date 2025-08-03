@@ -1,0 +1,42 @@
+# Use test or toy files where possible
+buildings_file: data/geojson/hausumringe_with_gebaeudeid.geojson
+osm_file: data/osm/branitzer_siedlung.osm
+demographics_file: data/json/building_population_resultsV6.json
+scenario_config_file: branitz_scenarios.yaml
+
+run_data_preparation: true
+run_building_attributes: true
+run_envelope_and_uvalue: true
+run_demand_calculation: true
+run_profile_generation: true
+run_network_construction: true
+run_scenario_manager: true
+run_simulation_runner: true
+run_kpi_calculator: true
+run_llm_reporter: true
+
+llm_model: gpt-4o
+openai_api_key: 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
+
+output_dir: results_test/
+
+# TEST MODE SETTINGS
+test_mode: true                # <--- Activate test mode!
+selected_buildings:
+  - DEBBAL520000wbRW
+  - DEBBAL520000wbRS
+  - DEBBAL520000wbY6
+  - DEBBAL520000wbRR
+  - DEBBAL520000wbUu
+  - DEBBAL520000wbTX
+  - DEBBAL520000wbUF
+  - DEBBAL520000wbRQ
+  - DEBBAL520000wbRV
+  - DEBBAL520000wbUI
+  - DEBBAL01000c3Ew4
+  - DEBBAL520000wbRO
+  - DEBBAL520000wbRU
+  - DEBBAL520000wbRP
+  - DEBBAL520000wbRT
+
+profile_type: H0

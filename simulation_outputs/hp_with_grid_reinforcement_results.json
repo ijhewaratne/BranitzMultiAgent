@@ -1,0 +1,9 @@
+{
+  "scenario": "hp_with_grid_reinforcement",
+  "type": "HP",
+  "success": true,
+  "kpi": {
+    "max_feeder_load_percent": 82,
+    "transformer_overloads": 1
+  }
+}

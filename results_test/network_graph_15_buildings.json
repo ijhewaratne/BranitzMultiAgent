@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "total_buildings": 14,
+    "total_connections": 14,
+    "graph_nodes": 14,
+    "graph_edges": 13,
+    "crs": "EPSG:32633",
+    "requested_building_ids": [
+      "DEBBAL520000wbRW",
+      "DEBBAL520000wbRS",
+      "DEBBAL520000wbY6",
+      "DEBBAL520000wbRR",
+      "DEBBAL520000wbUu",
+      "DEBBAL520000wbTX",
+      "DEBBAL520000wbUF",
+      "DEBBAL520000wbRQ",
+      "DEBBAL520000wbRV",
+      "DEBBAL520000wbUI",
+      "DEBBAL01000c3Ew4",
+      "DEBBAL520000wbRO",
+      "DEBBAL520000wbRU",
+      "DEBBAL520000wbRP",
+      "DEBBAL520000wbRT"
+    ],
+    "actual_building_ids": [
+      "DEBBAL520000wbRW",
+      "DEBBAL520000wbRS",
+      "DEBBAL520000wbY6",
+      "DEBBAL520000wbRR",
+      "DEBBAL520000wbUu",
+      "DEBBAL520000wbTX",
+      "DEBBAL520000wbUF",
+      "DEBBAL520000wbRQ",
+      "DEBBAL520000wbRV",
+      "DEBBAL520000wbUI",
+      "DEBBAL01000c3Ew4",
+      "DEBBAL520000wbRO",
+      "DEBBAL520000wbRU",
+      "DEBBAL520000wbRP",
+      "DEBBAL520000wbRT"
+    ]
+  },
+  "buildings": [
+    {
+      "id": "DEBBAL01000c3Ew4",
+      "coordinates": [
+        455426.1198123136,
+        5733788.48961137
+      ],
+      "properties": {
+        "area": 19.65935999374466,
+        "perimeter": 18.19458288809337
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRP",
+      "coordinates": [
+        455437.22427444573,
+        5733767.09595077
+      ],
+      "properties": {
+        "area": 36.57574049747917,
+        "perimeter": 24.29101727172829
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRO",
+      "coordinates": [
+        455424.84714223514,
+        5733781.272492825
+      ],
+      "properties": {
+        "area": 92.40499949861626,
+        "perimeter": 38.49433455411786
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRQ",
+      "coordinates": [
+        455416.27521174855,
+        5733764.160533027
+      ],
+      "properties": {
+        "area": 105.09395200997763,
+        "perimeter": 42.30845931610143
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRR",
+      "coordinates": [
+        455407.97624263674,
+        5733744.908193448
+      ],
+      "properties": {
+        "area": 131.70068551090887,
+        "perimeter": 55.17523412417121
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRS",
+      "coordinates": [
+        455395.68654957233,
+        5733722.684809265
+      ],
+      "properties": {
+        "area": 94.11832601365109,
+        "perimeter": 38.93555062781087
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRT",
+      "coordinates": [
+        455438.4357613134,
+        5733760.811479159
+      ],
+      "properties": {
+        "area": 35.434855003917484,
+        "perimeter": 27.33609897535691
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRV",
+      "coordinates": [
+        455419.0292705674,
+        5733748.284634816
+      ],
+      "properties": {
+        "area": 31.180836010067033,
+        "perimeter": 24.785769062958813
+      }
+    },
+    {
+      "id": "DEBBAL520000wbRW",
+      "coordinates": [
+        455383.4712243418,
+        5733703.691371183
+      ],
+      "properties": {
+        "area": 31.48155200642152,
+        "perimeter": 22.470393307035714
+      }
+    },
+    {
+      "id": "DEBBAL520000wbTX",
+      "coordinates": [
+        455411.86364569963,
+        5733733.240012289
+      ],
+      "properties": {
+        "area": 31.963931517036176,
+        "perimeter": 25.751925577557557
+      }
+    },
+    {
+      "id": "DEBBAL520000wbUF",
+      "coordinates": [
+        455407.10567231994,
+        5733727.989763919
+      ],
+      "properties": {
+        "area": 28.120058000214478,
+        "perimeter": 26.061899053002865
+      }
+    },
+    {
+      "id": "DEBBAL520000wbUI",
+      "coordinates": [
+        455418.6286538776,
+        5733752.297179538
+      ],
+      "properties": {
+        "area": 14.974711501960211,
+        "perimeter": 15.658351566490818
+      }
+    },
+    {
+      "id": "DEBBAL520000wbUu",
+      "coordinates": [
+        455403.8267136931,
+        5733738.191367327
+      ],
+      "properties": {
+        "area": 46.43692899087613,
+        "perimeter": 28.53428938460434
+      }
+    },
+    {
+      "id": "DEBBAL520000wbY6",
+      "coordinates": [
+        455401.978352225,
+        5733729.122816387
+      ],
+      "properties": {
+        "area": 36.516967995765256,
+        "perimeter": 25.266705935047327
+      }
+    }
+  ],
+  "building_connections": [
+    {
+      "building_id": "DEBBAL01000c3Ew4",
+      "building_coords": [
+        455429.1919995505,
+        5733789.541021803
+      ],
+      "street_coords": [
+        455432.21771412116,
+        5733795.458714597
+      ],
+      "connection_length": 6.646355141106845
+    },
+    {
+      "building_id": "DEBBAL520000wbRP",
+      "building_coords": [
+        455441.216999551,
+        5733768.813021803
+      ],
+      "street_coords": [
+        455450.1523336573,
+        5733786.288748945
+      ],
+      "connection_length": 19.627563137779465
+    },
+    {
+      "building_id": "DEBBAL520000wbRO",
+      "building_coords": [
+        455418.26299955085,
+        5733779.409021806
+      ],
+      "street_coords": [
+        455408.58298191644,
+        5733784.102019711
+      ],
+      "connection_length": 10.757647082092108
+    },
+    {
+      "building_id": "DEBBAL520000wbRQ",
+      "building_coords": [
+        455409.2019995502,
+        5733764.193021805
+      ],
+      "street_coords": [
+        455400.88556629216,
+        5733768.2249363465
+      ],
+      "connection_length": 9.242261465992422
+    },
+    {
+      "building_id": "DEBBAL520000wbRR",
+      "building_coords": [
+        455401.1279995501,
+        5733747.871021804
+      ],
+      "street_coords": [
+        455392.94183135283,
+        5733751.839782158
+      ],
+      "connection_length": 9.097494627495374
+    },
+    {
+      "building_id": "DEBBAL520000wbRS",
+      "building_coords": [
+        455388.9559995507,
+        5733721.018021804
+      ],
+      "street_coords": [
+        455380.0842829643,
+        5733725.319144894
+      ],
+      "connection_length": 9.8593617960609
+    },
+    {
+      "building_id": "DEBBAL520000wbRT",
+      "building_coords": [
+        455443.76599955064,
+        5733760.081021806
+      ],
+      "street_coords": [
+        455455.7124388861,
+        5733783.44586879
+      ],
+      "connection_length": 26.241827058692344
+    },
+    {
+      "building_id": "DEBBAL520000wbRV",
+      "building_coords": [
+        455414.23999955086,
+        5733748.688021803
+      ],
+      "street_coords": [
+        455395.75791317155,
+        5733757.648376624
+      ],
+      "connection_length": 20.539607480365902
+    },
+    {
+      "building_id": "DEBBAL520000wbRW",
+      "building_coords": [
+        455379.6359995502,
+        5733702.638021805
+      ],
+      "street_coords": [
+        455371.0955570827,
+        5733706.778538913
+      ],
+      "connection_length": 9.491208535094552
+    },
+    {
+      "building_id": "DEBBAL520000wbTX",
+      "building_coords": [
+        455406.85299955076,
+        5733733.877021805
+      ],
+      "street_coords": [
+        455388.5380614394,
+        5733742.7563409805
+      ],
+      "connection_length": 20.353851405485912
+    },
+    {
+      "building_id": "DEBBAL520000wbUF",
+      "building_coords": [
+        455403.57199955033,
+        5733723.999021806
+      ],
+      "street_coords": [
+        455384.03606622544,
+        5733733.470295273
+      ],
+      "connection_length": 21.7107740985967
+    },
+    {
+      "building_id": "DEBBAL520000wbUI",
+      "building_coords": [
+        455415.86399955064,
+        5733751.813021804
+      ],
+      "street_coords": [
+        455397.29368994525,
+        5733760.816148387
+      ],
+      "connection_length": 20.63765217050441
+    },
+    {
+      "building_id": "DEBBAL520000wbUu",
+      "building_coords": [
+        455398.5639995509,
+        5733738.018021805
+      ],
+      "street_coords": [
+        455388.58610351227,
+        5733742.855435019
+      ],
+      "connection_length": 11.08868684569382
+    },
+    {
+      "building_id": "DEBBAL520000wbY6",
+      "building_coords": [
+        455398.1249995504,
+        5733726.474021804
+      ],
+      "street_coords": [
+        455383.9709912595,
+        5733733.336068318
+      ],
+      "connection_length": 15.729705434878968
+    }
+  ],
+  "graph_nodes": [
+    {
+      "id": "DEBBAL01000c3Ew4",
+      "coordinates": [
+        455426.1198123136,
+        5733788.48961137
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRP",
+      "coordinates": [
+        455437.22427444573,
+        5733767.09595077
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRO",
+      "coordinates": [
+        455424.84714223514,
+        5733781.272492825
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRQ",
+      "coordinates": [
+        455416.27521174855,
+        5733764.160533027
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRR",
+      "coordinates": [
+        455407.97624263674,
+        5733744.908193448
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRS",
+      "coordinates": [
+        455395.68654957233,
+        5733722.684809265
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRT",
+      "coordinates": [
+        455438.4357613134,
+        5733760.811479159
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRV",
+      "coordinates": [
+        455419.0292705674,
+        5733748.284634816
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbRW",
+      "coordinates": [
+        455383.4712243418,
+        5733703.691371183
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbTX",
+      "coordinates": [
+        455411.86364569963,
+        5733733.240012289
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbUF",
+      "coordinates": [
+        455407.10567231994,
+        5733727.989763919
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbUI",
+      "coordinates": [
+        455418.6286538776,
+        5733752.297179538
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbUu",
+      "coordinates": [
+        455403.8267136931,
+        5733738.191367327
+      ]
+    },
+    {
+      "id": "DEBBAL520000wbY6",
+      "coordinates": [
+        455401.978352225,
+        5733729.122816387
+      ]
+    }
+  ],
+  "graph_edges": [
+    {
+      "source": "DEBBAL01000c3Ew4",
+      "target": "DEBBAL520000wbRO",
+      "weight": 7.328471137555372
+    },
+    {
+      "source": "DEBBAL520000wbRP",
+      "target": "DEBBAL520000wbRT",
+      "weight": 6.400178424562211
+    },
+    {
+      "source": "DEBBAL520000wbRP",
+      "target": "DEBBAL520000wbRO",
+      "weight": 18.819345004321388
+    },
+    {
+      "source": "DEBBAL520000wbRO",
+      "target": "DEBBAL520000wbRQ",
+      "weight": 19.138891305514328
+    },
+    {
+      "source": "DEBBAL520000wbRQ",
+      "target": "DEBBAL520000wbUI",
+      "weight": 12.094537852225512
+    },
+    {
+      "source": "DEBBAL520000wbRR",
+      "target": "DEBBAL520000wbUu",
+      "weight": 7.895210167291323
+    },
+    {
+      "source": "DEBBAL520000wbRR",
+      "target": "DEBBAL520000wbRV",
+      "weight": 11.557239408843614
+    },
+    {
+      "source": "DEBBAL520000wbRS",
+      "target": "DEBBAL520000wbY6",
+      "weight": 9.001928477917927
+    },
+    {
+      "source": "DEBBAL520000wbRS",
+      "target": "DEBBAL520000wbRW",
+      "weight": 22.58240156971967
+    },
+    {
+      "source": "DEBBAL520000wbRV",
+      "target": "DEBBAL520000wbUI",
+      "weight": 4.0324941256144
+    },
+    {
+      "source": "DEBBAL520000wbTX",
+      "target": "DEBBAL520000wbUF",
+      "weight": 7.085437080801644
+    },
+    {
+      "source": "DEBBAL520000wbUF",
+      "target": "DEBBAL520000wbY6",
+      "weight": 5.251020781719105
+    },
+    {
+      "source": "DEBBAL520000wbUu",
+      "target": "DEBBAL520000wbY6",
+      "weight": 9.255001689850323
+    }
+  ]
+}

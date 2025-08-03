@@ -1,0 +1,2478 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="node" attr.name="highway" attr.type="string"/>
+<key id="d2" for="node" attr.name="osmid" attr.type="long"/>
+<key id="d1" for="node" attr.name="y" attr.type="double"/>
+<key id="d0" for="node" attr.name="x" attr.type="double"/>
+<graph edgedefault="undirected"><node id="-53248">
+  <data key="d0">14.3677322</data>
+  <data key="d1">51.7529674</data>
+  <data key="d2">-53248</data>
+  <data key="d3"></data>
+</node>
+<node id="-47102">
+  <data key="d0">14.369308</data>
+  <data key="d1">51.7562684</data>
+  <data key="d2">-47102</data>
+  <data key="d3"></data>
+</node>
+<node id="-49147">
+  <data key="d0">14.3593108</data>
+  <data key="d1">51.7620212</data>
+  <data key="d2">-49147</data>
+  <data key="d3"></data>
+</node>
+<node id="-53239">
+  <data key="d0">14.3720896</data>
+  <data key="d1">51.7578509</data>
+  <data key="d2">-53239</data>
+  <data key="d3"></data>
+</node>
+<node id="-49141">
+  <data key="d0">14.3549413</data>
+  <data key="d1">51.7507108</data>
+  <data key="d2">-49141</data>
+  <data key="d3"></data>
+</node>
+<node id="-53234">
+  <data key="d0">14.3674509</data>
+  <data key="d1">51.7560342</data>
+  <data key="d2">-53234</data>
+  <data key="d3"></data>
+</node>
+<node id="-55280">
+  <data key="d0">14.3607523</data>
+  <data key="d1">51.7525301</data>
+  <data key="d2">-55280</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-55271">
+  <data key="d0">14.3641233</data>
+  <data key="d1">51.7520652</data>
+  <data key="d2">-55271</data>
+  <data key="d3"></data>
+</node>
+<node id="-55261">
+  <data key="d0">14.3541411</data>
+  <data key="d1">51.7511695</data>
+  <data key="d2">-55261</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-53209">
+  <data key="d0">14.3661544</data>
+  <data key="d1">51.7554536</data>
+  <data key="d2">-53209</data>
+  <data key="d3"></data>
+</node>
+<node id="-49105">
+  <data key="d0">14.357481</data>
+  <data key="d1">51.7536677</data>
+  <data key="d2">-49105</data>
+  <data key="d3"></data>
+</node>
+<node id="-51148">
+  <data key="d0">14.369858</data>
+  <data key="d1">51.7553553</data>
+  <data key="d2">-51148</data>
+  <data key="d3"></data>
+</node>
+<node id="-51145">
+  <data key="d0">14.3652301</data>
+  <data key="d1">51.7534305</data>
+  <data key="d2">-51145</data>
+  <data key="d3"></data>
+</node>
+<node id="-49091">
+  <data key="d0">14.358911</data>
+  <data key="d1">51.7566935</data>
+  <data key="d2">-49091</data>
+  <data key="d3"></data>
+</node>
+<node id="-47041">
+  <data key="d0">14.3638883</data>
+  <data key="d1">51.7613246</data>
+  <data key="d2">-47041</data>
+  <data key="d3"></data>
+</node>
+<node id="-51135">
+  <data key="d0">14.3678725</data>
+  <data key="d1">51.7559434</data>
+  <data key="d2">-51135</data>
+  <data key="d3"></data>
+</node>
+<node id="-55227">
+  <data key="d0">14.3727</data>
+  <data key="d1">51.7567227</data>
+  <data key="d2">-55227</data>
+  <data key="d3"></data>
+</node>
+<node id="-47033">
+  <data key="d0">14.359919</data>
+  <data key="d1">51.7579861</data>
+  <data key="d2">-47033</data>
+  <data key="d3"></data>
+</node>
+<node id="-53165">
+  <data key="d0">14.3599649</data>
+  <data key="d1">51.7540521</data>
+  <data key="d2">-53165</data>
+  <data key="d3"></data>
+</node>
+<node id="-47013">
+  <data key="d0">14.3692836</data>
+  <data key="d1">51.7552045</data>
+  <data key="d2">-47013</data>
+  <data key="d3"></data>
+</node>
+<node id="-55203">
+  <data key="d0">14.3669263</data>
+  <data key="d1">51.7552608</data>
+  <data key="d2">-55203</data>
+  <data key="d3"></data>
+</node>
+<node id="-47009">
+  <data key="d0">14.3586084</data>
+  <data key="d1">51.7622481</data>
+  <data key="d2">-47009</data>
+  <data key="d3"></data>
+</node>
+<node id="-55191">
+  <data key="d0">14.360805</data>
+  <data key="d1">51.7624653</data>
+  <data key="d2">-55191</data>
+  <data key="d3"></data>
+</node>
+<node id="-55190">
+  <data key="d0">14.3601499</data>
+  <data key="d1">51.7574746</data>
+  <data key="d2">-55190</data>
+  <data key="d3"></data>
+</node>
+<node id="-49041">
+  <data key="d0">14.3589666</data>
+  <data key="d1">51.7622624</data>
+  <data key="d2">-49041</data>
+  <data key="d3"></data>
+</node>
+<node id="-46987">
+  <data key="d0">14.3574858</data>
+  <data key="d1">51.7511983</data>
+  <data key="d2">-46987</data>
+  <data key="d3"></data>
+</node>
+<node id="-55177">
+  <data key="d0">14.3543639</data>
+  <data key="d1">51.753942</data>
+  <data key="d2">-55177</data>
+  <data key="d3"></data>
+</node>
+<node id="-53122">
+  <data key="d0">14.3635797</data>
+  <data key="d1">51.7517516</data>
+  <data key="d2">-53122</data>
+  <data key="d3"></data>
+</node>
+<node id="-51068">
+  <data key="d0">14.3705455</data>
+  <data key="d1">51.7533482</data>
+  <data key="d2">-51068</data>
+  <data key="d3"></data>
+</node>
+<node id="-55161">
+  <data key="d0">14.3574212</data>
+  <data key="d1">51.7537206</data>
+  <data key="d2">-55161</data>
+  <data key="d3"></data>
+</node>
+<node id="-49017">
+  <data key="d0">14.367416</data>
+  <data key="d1">51.755487</data>
+  <data key="d2">-49017</data>
+  <data key="d3"></data>
+</node>
+<node id="-51063">
+  <data key="d0">14.3732886</data>
+  <data key="d1">51.7566638</data>
+  <data key="d2">-51063</data>
+  <data key="d3"></data>
+</node>
+<node id="-49006">
+  <data key="d0">14.3612358</data>
+  <data key="d1">51.7624059</data>
+  <data key="d2">-49006</data>
+  <data key="d3"></data>
+</node>
+<node id="-46956">
+  <data key="d0">14.351523</data>
+  <data key="d1">51.7526189</data>
+  <data key="d2">-46956</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-55144">
+  <data key="d0">14.3636062</data>
+  <data key="d1">51.7621442</data>
+  <data key="d2">-55144</data>
+  <data key="d3"></data>
+</node>
+<node id="-53094">
+  <data key="d0">14.3680626</data>
+  <data key="d1">51.7560274</data>
+  <data key="d2">-53094</data>
+  <data key="d3"></data>
+</node>
+<node id="-46949">
+  <data key="d0">14.35364</data>
+  <data key="d1">51.7511715</data>
+  <data key="d2">-46949</data>
+  <data key="d3"></data>
+</node>
+<node id="-53081">
+  <data key="d0">14.3693044</data>
+  <data key="d1">51.7578935</data>
+  <data key="d2">-53081</data>
+  <data key="d3"></data>
+</node>
+<node id="-55119">
+  <data key="d0">14.3590601</data>
+  <data key="d1">51.7558245</data>
+  <data key="d2">-55119</data>
+  <data key="d3"></data>
+</node>
+<node id="-46925">
+  <data key="d0">14.3733741</data>
+  <data key="d1">51.7486905</data>
+  <data key="d2">-46925</data>
+  <data key="d3"></data>
+</node>
+<node id="-55115">
+  <data key="d0">14.3638152</data>
+  <data key="d1">51.7519923</data>
+  <data key="d2">-55115</data>
+  <data key="d3"></data>
+</node>
+<node id="-48970">
+  <data key="d0">14.3646513</data>
+  <data key="d1">51.7527921</data>
+  <data key="d2">-48970</data>
+  <data key="d3"></data>
+</node>
+<node id="-46912">
+  <data key="d0">14.3683862</data>
+  <data key="d1">51.7563576</data>
+  <data key="d2">-46912</data>
+  <data key="d3"></data>
+</node>
+<node id="-50988">
+  <data key="d0">14.3574205</data>
+  <data key="d1">51.7537666</data>
+  <data key="d2">-50988</data>
+  <data key="d3"></data>
+</node>
+<node id="-46890">
+  <data key="d0">14.3615152</data>
+  <data key="d1">51.7588709</data>
+  <data key="d2">-46890</data>
+  <data key="d3"></data>
+</node>
+<node id="-53033">
+  <data key="d0">14.3662443</data>
+  <data key="d1">51.7541383</data>
+  <data key="d2">-53033</data>
+  <data key="d3"></data>
+</node>
+<node id="-50978">
+  <data key="d0">14.3601111</data>
+  <data key="d1">51.7555859</data>
+  <data key="d2">-50978</data>
+  <data key="d3"></data>
+</node>
+<node id="-55073">
+  <data key="d0">14.3564651</data>
+  <data key="d1">51.7542096</data>
+  <data key="d2">-55073</data>
+  <data key="d3"></data>
+</node>
+<node id="-48922">
+  <data key="d0">14.3650552</data>
+  <data key="d1">51.759633</data>
+  <data key="d2">-48922</data>
+  <data key="d3"></data>
+</node>
+<node id="-50969">
+  <data key="d0">14.3654465</data>
+  <data key="d1">51.760094</data>
+  <data key="d2">-50969</data>
+  <data key="d3"></data>
+</node>
+<node id="-53012">
+  <data key="d0">14.3541664</data>
+  <data key="d1">51.7533378</data>
+  <data key="d2">-53012</data>
+  <data key="d3"></data>
+</node>
+<node id="-53011">
+  <data key="d0">14.3755088</data>
+  <data key="d1">51.7581512</data>
+  <data key="d2">-53011</data>
+  <data key="d3"></data>
+</node>
+<node id="-48915">
+  <data key="d0">14.362524</data>
+  <data key="d1">51.7624696</data>
+  <data key="d2">-48915</data>
+  <data key="d3"></data>
+</node>
+<node id="-46863">
+  <data key="d0">14.3556989</data>
+  <data key="d1">51.75421</data>
+  <data key="d2">-46863</data>
+  <data key="d3"></data>
+</node>
+<node id="-48908">
+  <data key="d0">14.3599991</data>
+  <data key="d1">51.756806</data>
+  <data key="d2">-48908</data>
+  <data key="d3"></data>
+</node>
+<node id="-46857">
+  <data key="d0">14.3715482</data>
+  <data key="d1">51.7543811</data>
+  <data key="d2">-46857</data>
+  <data key="d3"></data>
+</node>
+<node id="-46848">
+  <data key="d0">14.366959</data>
+  <data key="d1">51.7521311</data>
+  <data key="d2">-46848</data>
+  <data key="d3"></data>
+</node>
+<node id="-50937">
+  <data key="d0">14.3695779</data>
+  <data key="d1">51.7570488</data>
+  <data key="d2">-50937</data>
+  <data key="d3"></data>
+</node>
+<node id="-52984">
+  <data key="d0">14.3594697</data>
+  <data key="d1">51.7556237</data>
+  <data key="d2">-52984</data>
+  <data key="d3"></data>
+</node>
+<node id="-48886">
+  <data key="d0">14.3711964</data>
+  <data key="d1">51.7578044</data>
+  <data key="d2">-48886</data>
+  <data key="d3"></data>
+</node>
+<node id="-52977">
+  <data key="d0">14.3645009</data>
+  <data key="d1">51.7582652</data>
+  <data key="d2">-52977</data>
+  <data key="d3"></data>
+</node>
+<node id="-46830">
+  <data key="d0">14.3666616</data>
+  <data key="d1">51.7507385</data>
+  <data key="d2">-46830</data>
+  <data key="d3"></data>
+</node>
+<node id="-50916">
+  <data key="d0">14.3627067</data>
+  <data key="d1">51.7609686</data>
+  <data key="d2">-50916</data>
+  <data key="d3"></data>
+</node>
+<node id="-55010">
+  <data key="d0">14.3608054</data>
+  <data key="d1">51.7624057</data>
+  <data key="d2">-55010</data>
+  <data key="d3"></data>
+</node>
+<node id="-46818">
+  <data key="d0">14.3605948</data>
+  <data key="d1">51.7622441</data>
+  <data key="d2">-46818</data>
+  <data key="d3"></data>
+</node>
+<node id="-48864">
+  <data key="d0">14.3589675</data>
+  <data key="d1">51.7625078</data>
+  <data key="d2">-48864</data>
+  <data key="d3"></data>
+</node>
+<node id="-50912">
+  <data key="d0">14.3591686</data>
+  <data key="d1">51.7622681</data>
+  <data key="d2">-50912</data>
+  <data key="d3"></data>
+</node>
+<node id="-46813">
+  <data key="d0">14.3573644</data>
+  <data key="d1">51.7553819</data>
+  <data key="d2">-46813</data>
+  <data key="d3"></data>
+</node>
+<node id="-52954">
+  <data key="d0">14.3588993</data>
+  <data key="d1">51.7612615</data>
+  <data key="d2">-52954</data>
+  <data key="d3"></data>
+</node>
+<node id="-52953">
+  <data key="d0">14.3718995</data>
+  <data key="d1">51.7574327</data>
+  <data key="d2">-52953</data>
+  <data key="d3"></data>
+</node>
+<node id="-46807">
+  <data key="d0">14.3708134</data>
+  <data key="d1">51.7542582</data>
+  <data key="d2">-46807</data>
+  <data key="d3"></data>
+</node>
+<node id="-46798">
+  <data key="d0">14.3729896</data>
+  <data key="d1">51.7569507</data>
+  <data key="d2">-46798</data>
+  <data key="d3"></data>
+</node>
+<node id="-50893">
+  <data key="d0">14.3569238</data>
+  <data key="d1">51.7548294</data>
+  <data key="d2">-50893</data>
+  <data key="d3"></data>
+</node>
+<node id="-54986">
+  <data key="d0">14.3638199</data>
+  <data key="d1">51.7492565</data>
+  <data key="d2">-54986</data>
+  <data key="d3"></data>
+</node>
+<node id="-46793">
+  <data key="d0">14.3612369</data>
+  <data key="d1">51.7623358</data>
+  <data key="d2">-46793</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-46790">
+  <data key="d0">14.3683763</data>
+  <data key="d1">51.7566806</data>
+  <data key="d2">-46790</data>
+  <data key="d3"></data>
+</node>
+<node id="-54981">
+  <data key="d0">14.3628252</data>
+  <data key="d1">51.7623199</data>
+  <data key="d2">-54981</data>
+  <data key="d3"></data>
+</node>
+<node id="-48834">
+  <data key="d0">14.3708596</data>
+  <data key="d1">51.7553279</data>
+  <data key="d2">-48834</data>
+  <data key="d3"></data>
+</node>
+<node id="-50877">
+  <data key="d0">14.360449</data>
+  <data key="d1">51.7516825</data>
+  <data key="d2">-50877</data>
+  <data key="d3"></data>
+</node>
+<node id="-46774">
+  <data key="d0">14.3662136</data>
+  <data key="d1">51.7554901</data>
+  <data key="d2">-46774</data>
+  <data key="d3"></data>
+</node>
+<node id="-54966">
+  <data key="d0">14.371475</data>
+  <data key="d1">51.7558313</data>
+  <data key="d2">-54966</data>
+  <data key="d3"></data>
+</node>
+<node id="-52912">
+  <data key="d0">14.3582677</data>
+  <data key="d1">51.7558683</data>
+  <data key="d2">-52912</data>
+  <data key="d3"></data>
+</node>
+<node id="-46756">
+  <data key="d0">14.3515831</data>
+  <data key="d1">51.752654</data>
+  <data key="d2">-46756</data>
+  <data key="d3"></data>
+</node>
+<node id="-48800">
+  <data key="d0">14.362881</data>
+  <data key="d1">51.750669</data>
+  <data key="d2">-48800</data>
+  <data key="d3"></data>
+</node>
+<node id="-54941">
+  <data key="d0">14.3630528</data>
+  <data key="d1">51.7623734</data>
+  <data key="d2">-54941</data>
+  <data key="d3"></data>
+</node>
+<node id="-46728">
+  <data key="d0">14.3605532</data>
+  <data key="d1">51.7518156</data>
+  <data key="d2">-46728</data>
+  <data key="d3"></data>
+</node>
+<node id="-50812">
+  <data key="d0">14.3683672</data>
+  <data key="d1">51.7596235</data>
+  <data key="d2">-50812</data>
+  <data key="d3"></data>
+</node>
+<node id="-48754">
+  <data key="d0">14.3688697</data>
+  <data key="d1">51.7565497</data>
+  <data key="d2">-48754</data>
+  <data key="d3"></data>
+</node>
+<node id="-54896">
+  <data key="d0">14.3591638</data>
+  <data key="d1">51.7624605</data>
+  <data key="d2">-54896</data>
+  <data key="d3"></data>
+</node>
+<node id="-52842">
+  <data key="d0">14.3664859</data>
+  <data key="d1">51.7566996</data>
+  <data key="d2">-52842</data>
+  <data key="d3"></data>
+</node>
+<node id="-54890">
+  <data key="d0">14.3590645</data>
+  <data key="d1">51.7625766</data>
+  <data key="d2">-54890</data>
+  <data key="d3"></data>
+</node>
+<node id="-46695">
+  <data key="d0">14.3564195</data>
+  <data key="d1">51.7534026</data>
+  <data key="d2">-46695</data>
+  <data key="d3"></data>
+</node>
+<node id="-50789">
+  <data key="d0">14.3672813</data>
+  <data key="d1">51.7568277</data>
+  <data key="d2">-50789</data>
+  <data key="d3"></data>
+</node>
+<node id="-48740">
+  <data key="d0">14.3661194</data>
+  <data key="d1">51.7555167</data>
+  <data key="d2">-48740</data>
+  <data key="d3"></data>
+</node>
+<node id="-48703">
+  <data key="d0">14.3600314</data>
+  <data key="d1">51.7548764</data>
+  <data key="d2">-48703</data>
+  <data key="d3"></data>
+</node>
+<node id="-52781">
+  <data key="d0">14.36752</data>
+  <data key="d1">51.7567559</data>
+  <data key="d2">-52781</data>
+  <data key="d3"></data>
+</node>
+<node id="-50730">
+  <data key="d0">14.3632276</data>
+  <data key="d1">51.7546542</data>
+  <data key="d2">-50730</data>
+  <data key="d3"></data>
+</node>
+<node id="-50727">
+  <data key="d0">14.3629847</data>
+  <data key="d1">51.7519328</data>
+  <data key="d2">-50727</data>
+  <data key="d3"></data>
+</node>
+<node id="-52774">
+  <data key="d0">14.359219</data>
+  <data key="d1">51.7614932</data>
+  <data key="d2">-52774</data>
+  <data key="d3"></data>
+</node>
+<node id="-52772">
+  <data key="d0">14.3648207</data>
+  <data key="d1">51.7489629</data>
+  <data key="d2">-52772</data>
+  <data key="d3"></data>
+</node>
+<node id="-54822">
+  <data key="d0">14.3654404</data>
+  <data key="d1">51.7598026</data>
+  <data key="d2">-54822</data>
+  <data key="d3"></data>
+</node>
+<node id="-48668">
+  <data key="d0">14.3608097</data>
+  <data key="d1">51.7525955</data>
+  <data key="d2">-48668</data>
+  <data key="d3"></data>
+</node>
+<node id="-46617">
+  <data key="d0">14.3735631</data>
+  <data key="d1">51.75669</data>
+  <data key="d2">-46617</data>
+  <data key="d3"></data>
+</node>
+<node id="-52751">
+  <data key="d0">14.3644007</data>
+  <data key="d1">51.7619103</data>
+  <data key="d2">-52751</data>
+  <data key="d3"></data>
+</node>
+<node id="-52749">
+  <data key="d0">14.3598086</data>
+  <data key="d1">51.7621015</data>
+  <data key="d2">-52749</data>
+  <data key="d3"></data>
+</node>
+<node id="-48648">
+  <data key="d0">14.3647311</data>
+  <data key="d1">51.7583071</data>
+  <data key="d2">-48648</data>
+  <data key="d3"></data>
+</node>
+<node id="-50694">
+  <data key="d0">14.3611039</data>
+  <data key="d1">51.7525054</data>
+  <data key="d2">-50694</data>
+  <data key="d3"></data>
+</node>
+<node id="-52736">
+  <data key="d0">14.3659228</data>
+  <data key="d1">51.755337</data>
+  <data key="d2">-52736</data>
+  <data key="d3"></data>
+</node>
+<node id="-46587">
+  <data key="d0">14.3678492</data>
+  <data key="d1">51.7559138</data>
+  <data key="d2">-46587</data>
+  <data key="d3"></data>
+</node>
+<node id="-54774">
+  <data key="d0">14.3597964</data>
+  <data key="d1">51.7622101</data>
+  <data key="d2">-54774</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-48625">
+  <data key="d0">14.3717999</data>
+  <data key="d1">51.7578359</data>
+  <data key="d2">-48625</data>
+  <data key="d3"></data>
+</node>
+<node id="-52718">
+  <data key="d0">14.3576475</data>
+  <data key="d1">51.7543917</data>
+  <data key="d2">-52718</data>
+  <data key="d3"></data>
+</node>
+<node id="-48617">
+  <data key="d0">14.3667198</data>
+  <data key="d1">51.762059</data>
+  <data key="d2">-48617</data>
+  <data key="d3"></data>
+</node>
+<node id="-52708">
+  <data key="d0">14.3665172</data>
+  <data key="d1">51.7558323</data>
+  <data key="d2">-52708</data>
+  <data key="d3"></data>
+</node>
+<node id="-54750">
+  <data key="d0">14.3548202</data>
+  <data key="d1">51.750668</data>
+  <data key="d2">-54750</data>
+  <data key="d3"></data>
+</node>
+<node id="-52698">
+  <data key="d0">14.3637409</data>
+  <data key="d1">51.7516233</data>
+  <data key="d2">-52698</data>
+  <data key="d3"></data>
+</node>
+<node id="-48598">
+  <data key="d0">14.3660484</data>
+  <data key="d1">51.7552986</data>
+  <data key="d2">-48598</data>
+  <data key="d3"></data>
+</node>
+<node id="-54738">
+  <data key="d0">14.3590249</data>
+  <data key="d1">51.76126</data>
+  <data key="d2">-54738</data>
+  <data key="d3"></data>
+</node>
+<node id="-50632">
+  <data key="d0">14.36416</data>
+  <data key="d1">51.7624018</data>
+  <data key="d2">-50632</data>
+  <data key="d3"></data>
+</node>
+<node id="-54723">
+  <data key="d0">14.3695401</data>
+  <data key="d1">51.7554884</data>
+  <data key="d2">-54723</data>
+  <data key="d3"></data>
+</node>
+<node id="-50624">
+  <data key="d0">14.3632854</data>
+  <data key="d1">51.7548292</data>
+  <data key="d2">-50624</data>
+  <data key="d3"></data>
+</node>
+<node id="-50622">
+  <data key="d0">14.3671962</data>
+  <data key="d1">51.7552922</data>
+  <data key="d2">-50622</data>
+  <data key="d3"></data>
+</node>
+<node id="-52665">
+  <data key="d0">14.3540839</data>
+  <data key="d1">51.75113</data>
+  <data key="d2">-52665</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-48566">
+  <data key="d0">14.3606077</data>
+  <data key="d1">51.7624398</data>
+  <data key="d2">-48566</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-50606">
+  <data key="d0">14.360609</data>
+  <data key="d1">51.7624629</data>
+  <data key="d2">-50606</data>
+  <data key="d3"></data>
+</node>
+<node id="-54701">
+  <data key="d0">14.3635989</data>
+  <data key="d1">51.7516671</data>
+  <data key="d2">-54701</data>
+  <data key="d3"></data>
+</node>
+<node id="-46508">
+  <data key="d0">14.3672488</data>
+  <data key="d1">51.7551291</data>
+  <data key="d2">-46508</data>
+  <data key="d3"></data>
+</node>
+<node id="-46496">
+  <data key="d0">14.3694529</data>
+  <data key="d1">51.7531294</data>
+  <data key="d2">-46496</data>
+  <data key="d3"></data>
+</node>
+<node id="-48545">
+  <data key="d0">14.3631696</data>
+  <data key="d1">51.762351</data>
+  <data key="d2">-48545</data>
+  <data key="d3"></data>
+</node>
+<node id="-54681">
+  <data key="d0">14.363878</data>
+  <data key="d1">51.7515416</data>
+  <data key="d2">-54681</data>
+  <data key="d3"></data>
+</node>
+<node id="-48536">
+  <data key="d0">14.3601386</data>
+  <data key="d1">51.7515065</data>
+  <data key="d2">-48536</data>
+  <data key="d3"></data>
+</node>
+<node id="-48534">
+  <data key="d0">14.3609945</data>
+  <data key="d1">51.7523697</data>
+  <data key="d2">-48534</data>
+  <data key="d3"></data>
+</node>
+<node id="-50577">
+  <data key="d0">14.3658624</data>
+  <data key="d1">51.7610207</data>
+  <data key="d2">-50577</data>
+  <data key="d3"></data>
+</node>
+<node id="-50576">
+  <data key="d0">14.365405</data>
+  <data key="d1">51.7543814</data>
+  <data key="d2">-50576</data>
+  <data key="d3"></data>
+</node>
+<node id="-50565">
+  <data key="d0">14.3633728</data>
+  <data key="d1">51.7621691</data>
+  <data key="d2">-50565</data>
+  <data key="d3"></data>
+</node>
+<node id="-48513">
+  <data key="d0">14.3638459</data>
+  <data key="d1">51.7520317</data>
+  <data key="d2">-48513</data>
+  <data key="d3"></data>
+</node>
+<node id="-46460">
+  <data key="d0">14.3635711</data>
+  <data key="d1">51.7561034</data>
+  <data key="d2">-46460</data>
+  <data key="d3"></data>
+</node>
+<node id="-46457">
+  <data key="d0">14.3541778</data>
+  <data key="d1">51.7540593</data>
+  <data key="d2">-46457</data>
+  <data key="d3">traffic_signals</data>
+</node>
+<node id="-48500">
+  <data key="d0">14.3616183</data>
+  <data key="d1">51.7556876</data>
+  <data key="d2">-48500</data>
+  <data key="d3"></data>
+</node>
+<node id="-54641">
+  <data key="d0">14.3512224</data>
+  <data key="d1">51.7527644</data>
+  <data key="d2">-54641</data>
+  <data key="d3"></data>
+</node>
+<node id="-54640">
+  <data key="d0">14.3550296</data>
+  <data key="d1">51.7548044</data>
+  <data key="d2">-54640</data>
+  <data key="d3"></data>
+</node>
+<node id="-50542">
+  <data key="d0">14.3588711</data>
+  <data key="d1">51.7556174</data>
+  <data key="d2">-50542</data>
+  <data key="d3"></data>
+</node>
+<node id="-52585">
+  <data key="d0">14.3619577</data>
+  <data key="d1">51.7577867</data>
+  <data key="d2">-52585</data>
+  <data key="d3"></data>
+</node>
+<node id="-50535">
+  <data key="d0">14.3640512</data>
+  <data key="d1">51.7519725</data>
+  <data key="d2">-50535</data>
+  <data key="d3"></data>
+</node>
+<node id="-50532">
+  <data key="d0">14.3684269</data>
+  <data key="d1">51.7522571</data>
+  <data key="d2">-50532</data>
+  <data key="d3"></data>
+</node>
+<node id="-52573">
+  <data key="d0">14.3547144</data>
+  <data key="d1">51.7545765</data>
+  <data key="d2">-52573</data>
+  <data key="d3"></data>
+</node>
+<node id="-52569">
+  <data key="d0">14.366563</data>
+  <data key="d1">51.7621297</data>
+  <data key="d2">-52569</data>
+  <data key="d3"></data>
+</node>
+<node id="-50519">
+  <data key="d0">14.3721918</data>
+  <data key="d1">51.7574573</data>
+  <data key="d2">-50519</data>
+  <data key="d3"></data>
+</node>
+<node id="-46421">
+  <data key="d0">14.3660557</data>
+  <data key="d1">51.7556052</data>
+  <data key="d2">-46421</data>
+  <data key="d3"></data>
+</node>
+<node id="-46412">
+  <data key="d0">14.3599444</data>
+  <data key="d1">51.7559151</data>
+  <data key="d2">-46412</data>
+  <data key="d3"></data>
+</node>
+<node id="-54598">
+  <data key="d0">14.3637576</data>
+  <data key="d1">51.7624834</data>
+  <data key="d2">-54598</data>
+  <data key="d3"></data>
+</node>
+<node id="-54597">
+  <data key="d0">14.3597385</data>
+  <data key="d1">51.757239</data>
+  <data key="d2">-54597</data>
+  <data key="d3"></data>
+</node>
+<node id="-54587">
+  <data key="d0">14.3623062</data>
+  <data key="d1">51.7534821</data>
+  <data key="d2">-54587</data>
+  <data key="d3"></data>
+</node>
+<node id="-54578">
+  <data key="d0">14.3564579</data>
+  <data key="d1">51.7526264</data>
+  <data key="d2">-54578</data>
+  <data key="d3"></data>
+</node>
+<node id="-48429">
+  <data key="d0">14.357946</data>
+  <data key="d1">51.7561023</data>
+  <data key="d2">-48429</data>
+  <data key="d3"></data>
+</node>
+<node id="-46380">
+  <data key="d0">14.352875</data>
+  <data key="d1">51.7518673</data>
+  <data key="d2">-46380</data>
+  <data key="d3"></data>
+</node>
+<node id="-48426">
+  <data key="d0">14.3731555</data>
+  <data key="d1">51.756347</data>
+  <data key="d2">-48426</data>
+  <data key="d3"></data>
+</node>
+<node id="-46371">
+  <data key="d0">14.3692008</data>
+  <data key="d1">51.7556115</data>
+  <data key="d2">-46371</data>
+  <data key="d3"></data>
+</node>
+<node id="-52515">
+  <data key="d0">14.3587913</data>
+  <data key="d1">51.7574587</data>
+  <data key="d2">-52515</data>
+  <data key="d3"></data>
+</node>
+<node id="-50464">
+  <data key="d0">14.3713313</data>
+  <data key="d1">51.7508414</data>
+  <data key="d2">-50464</data>
+  <data key="d3"></data>
+</node>
+<node id="-54552">
+  <data key="d0">14.3559287</data>
+  <data key="d1">51.75426</data>
+  <data key="d2">-54552</data>
+  <data key="d3"></data>
+</node>
+<node id="-50453">
+  <data key="d0">14.3595872</data>
+  <data key="d1">51.7624415</data>
+  <data key="d2">-50453</data>
+  <data key="d3"></data>
+</node>
+<node id="-46354">
+  <data key="d0">14.3693631</data>
+  <data key="d1">51.7569691</data>
+  <data key="d2">-46354</data>
+  <data key="d3">bus_stop</data>
+</node>
+<node id="-50438">
+  <data key="d0">14.3735818</data>
+  <data key="d1">51.7575544</data>
+  <data key="d2">-50438</data>
+  <data key="d3"></data>
+</node>
+<node id="-46337">
+  <data key="d0">14.3664933</data>
+  <data key="d1">51.7507848</data>
+  <data key="d2">-46337</data>
+  <data key="d3"></data>
+</node>
+<node id="-46335">
+  <data key="d0">14.3643958</data>
+  <data key="d1">51.7612632</data>
+  <data key="d2">-46335</data>
+  <data key="d3"></data>
+</node>
+<node id="-54523">
+  <data key="d0">14.3679634</data>
+  <data key="d1">51.7560576</data>
+  <data key="d2">-54523</data>
+  <data key="d3"></data>
+</node>
+<node id="-54521">
+  <data key="d0">14.3625105</data>
+  <data key="d1">51.7623622</data>
+  <data key="d2">-54521</data>
+  <data key="d3"></data>
+</node>
+<node id="-46326">
+  <data key="d0">14.3694217</data>
+  <data key="d1">51.7558425</data>
+  <data key="d2">-46326</data>
+  <data key="d3"></data>
+</node>
+<node id="-54513">
+  <data key="d0">14.367935</data>
+  <data key="d1">51.751839</data>
+  <data key="d2">-54513</data>
+  <data key="d3"></data>
+</node>
+<node id="-46312">
+  <data key="d0">14.3638372</data>
+  <data key="d1">51.7516723</data>
+  <data key="d2">-46312</data>
+  <data key="d3"></data>
+</node>
+<node id="-50396">
+  <data key="d0">14.3719274</data>
+  <data key="d1">51.7549468</data>
+  <data key="d2">-50396</data>
+  <data key="d3"></data>
+</node>
+<node id="-52444">
+  <data key="d0">14.359248</data>
+  <data key="d1">51.7625446</data>
+  <data key="d2">-52444</data>
+  <data key="d3"></data>
+</node>
+<node id="-50384">
+  <data key="d0">14.35538</data>
+  <data key="d1">51.7543004</data>
+  <data key="d2">-50384</data>
+  <data key="d3"></data>
+</node>
+<node id="-48334">
+  <data key="d0">14.3636809</data>
+  <data key="d1">51.7567319</data>
+  <data key="d2">-48334</data>
+  <data key="d3"></data>
+</node>
+<node id="-50372">
+  <data key="d0">14.3624859</data>
+  <data key="d1">51.7623311</data>
+  <data key="d2">-50372</data>
+  <data key="d3"></data>
+</node>
+<node id="-50368">
+  <data key="d0">14.3753838</data>
+  <data key="d1">51.7580737</data>
+  <data key="d2">-50368</data>
+  <data key="d3"></data>
+</node>
+<node id="-52408">
+  <data key="d0">14.3653095</data>
+  <data key="d1">51.756447</data>
+  <data key="d2">-52408</data>
+  <data key="d3"></data>
+</node>
+<node id="-54451">
+  <data key="d0">14.3636473</data>
+  <data key="d1">51.7517312</data>
+  <data key="d2">-54451</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-52403">
+  <data key="d0">14.3687248</data>
+  <data key="d1">51.7544848</data>
+  <data key="d2">-52403</data>
+  <data key="d3"></data>
+</node>
+<node id="-48305">
+  <data key="d0">14.3539574</data>
+  <data key="d1">51.7541976</data>
+  <data key="d2">-48305</data>
+  <data key="d3"></data>
+</node>
+<node id="-48296">
+  <data key="d0">14.3585011</data>
+  <data key="d1">51.762129</data>
+  <data key="d2">-48296</data>
+  <data key="d3"></data>
+</node>
+<node id="-54433">
+  <data key="d0">14.3656028</data>
+  <data key="d1">51.7597648</data>
+  <data key="d2">-54433</data>
+  <data key="d3"></data>
+</node>
+<node id="-54432">
+  <data key="d0">14.3691808</data>
+  <data key="d1">51.757937</data>
+  <data key="d2">-54432</data>
+  <data key="d3"></data>
+</node>
+<node id="-46236">
+  <data key="d0">14.3592813</data>
+  <data key="d1">51.7506687</data>
+  <data key="d2">-46236</data>
+  <data key="d3"></data>
+</node>
+<node id="-52379">
+  <data key="d0">14.3590837</data>
+  <data key="d1">51.7531251</data>
+  <data key="d2">-52379</data>
+  <data key="d3"></data>
+</node>
+<node id="-46225">
+  <data key="d0">14.3694019</data>
+  <data key="d1">51.7568248</data>
+  <data key="d2">-46225</data>
+  <data key="d3"></data>
+</node>
+<node id="-48269">
+  <data key="d0">14.3587917</data>
+  <data key="d1">51.7557743</data>
+  <data key="d2">-48269</data>
+  <data key="d3"></data>
+</node>
+<node id="-46220">
+  <data key="d0">14.3710977</data>
+  <data key="d1">51.7520585</data>
+  <data key="d2">-46220</data>
+  <data key="d3"></data>
+</node>
+<node id="-52362">
+  <data key="d0">14.3604108</data>
+  <data key="d1">51.7622422</data>
+  <data key="d2">-52362</data>
+  <data key="d3"></data>
+</node>
+<node id="-48260">
+  <data key="d0">14.3662416</data>
+  <data key="d1">51.7554827</data>
+  <data key="d2">-48260</data>
+  <data key="d3"></data>
+</node>
+<node id="-46205">
+  <data key="d0">14.3686751</data>
+  <data key="d1">51.7510591</data>
+  <data key="d2">-46205</data>
+  <data key="d3"></data>
+</node>
+<node id="-46200">
+  <data key="d0">14.3646665</data>
+  <data key="d1">51.7623424</data>
+  <data key="d2">-46200</data>
+  <data key="d3"></data>
+</node>
+<node id="-50285">
+  <data key="d0">14.3602937</data>
+  <data key="d1">51.7519415</data>
+  <data key="d2">-50285</data>
+  <data key="d3"></data>
+</node>
+<node id="-54378">
+  <data key="d0">14.3580145</data>
+  <data key="d1">51.7556562</data>
+  <data key="d2">-54378</data>
+  <data key="d3"></data>
+</node>
+<node id="-50278">
+  <data key="d0">14.3663882</data>
+  <data key="d1">51.7563031</data>
+  <data key="d2">-50278</data>
+  <data key="d3"></data>
+</node>
+<node id="-52324">
+  <data key="d0">14.3665349</data>
+  <data key="d1">51.7566052</data>
+  <data key="d2">-52324</data>
+  <data key="d3"></data>
+</node>
+<node id="-54372">
+  <data key="d0">14.3694126</data>
+  <data key="d1">51.7569684</data>
+  <data key="d2">-54372</data>
+  <data key="d3"></data>
+</node>
+<node id="-52319">
+  <data key="d0">14.3689985</data>
+  <data key="d1">51.7548272</data>
+  <data key="d2">-52319</data>
+  <data key="d3"></data>
+</node>
+<node id="-52310">
+  <data key="d0">14.3661811</data>
+  <data key="d1">51.755446</data>
+  <data key="d2">-52310</data>
+  <data key="d3"></data>
+</node>
+<node id="-54357">
+  <data key="d0">14.3660018</data>
+  <data key="d1">51.7555934</data>
+  <data key="d2">-54357</data>
+  <data key="d3"></data>
+</node>
+<node id="-54358">
+  <data key="d0">14.3760105</data>
+  <data key="d1">51.7579977</data>
+  <data key="d2">-54358</data>
+  <data key="d3"></data>
+</node>
+<node id="-52299">
+  <data key="d0">14.3608117</data>
+  <data key="d1">51.7623445</data>
+  <data key="d2">-52299</data>
+  <data key="d3"></data>
+</node>
+<node id="-46154">
+  <data key="d0">14.3598007</data>
+  <data key="d1">51.7582549</data>
+  <data key="d2">-46154</data>
+  <data key="d3"></data>
+</node>
+<node id="-48204">
+  <data key="d0">14.3640776</data>
+  <data key="d1">51.7593909</data>
+  <data key="d2">-48204</data>
+  <data key="d3"></data>
+</node>
+<node id="-54333">
+  <data key="d0">14.363057</data>
+  <data key="d1">51.762444</data>
+  <data key="d2">-54333</data>
+  <data key="d3"></data>
+</node>
+<node id="-52274">
+  <data key="d0">14.3693929</data>
+  <data key="d1">51.7558124</data>
+  <data key="d2">-52274</data>
+  <data key="d3"></data>
+</node>
+<node id="-54319">
+  <data key="d0">14.3660444</data>
+  <data key="d1">51.754168</data>
+  <data key="d2">-54319</data>
+  <data key="d3"></data>
+</node>
+<node id="-52255">
+  <data key="d0">14.368496</data>
+  <data key="d1">51.7534495</data>
+  <data key="d2">-52255</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-48149">
+  <data key="d0">14.3586178</data>
+  <data key="d1">51.7620958</data>
+  <data key="d2">-48149</data>
+  <data key="d3"></data>
+</node>
+<node id="-48142">
+  <data key="d0">14.3702408</data>
+  <data key="d1">51.7562246</data>
+  <data key="d2">-48142</data>
+  <data key="d3"></data>
+</node>
+<node id="-50188">
+  <data key="d0">14.3695267</data>
+  <data key="d1">51.7562588</data>
+  <data key="d2">-50188</data>
+  <data key="d3"></data>
+</node>
+<node id="-46085">
+  <data key="d0">14.3677664</data>
+  <data key="d1">51.7559388</data>
+  <data key="d2">-46085</data>
+  <data key="d3"></data>
+</node>
+<node id="-48120">
+  <data key="d0">14.3665582</data>
+  <data key="d1">51.7558109</data>
+  <data key="d2">-48120</data>
+  <data key="d3"></data>
+</node>
+<node id="-46066">
+  <data key="d0">14.3672368</data>
+  <data key="d1">51.7552507</data>
+  <data key="d2">-46066</data>
+  <data key="d3"></data>
+</node>
+<node id="-52208">
+  <data key="d0">14.3518326</data>
+  <data key="d1">51.7524547</data>
+  <data key="d2">-52208</data>
+  <data key="d3"></data>
+</node>
+<node id="-48111">
+  <data key="d0">14.3528074</data>
+  <data key="d1">51.751617</data>
+  <data key="d2">-48111</data>
+  <data key="d3"></data>
+</node>
+<node id="-46058">
+  <data key="d0">14.36147</data>
+  <data key="d1">51.7547015</data>
+  <data key="d2">-46058</data>
+  <data key="d3"></data>
+</node>
+<node id="-52194">
+  <data key="d0">14.3732249</data>
+  <data key="d1">51.7563973</data>
+  <data key="d2">-52194</data>
+  <data key="d3"></data>
+</node>
+<node id="-46043">
+  <data key="d0">14.3606058</data>
+  <data key="d1">51.7624042</data>
+  <data key="d2">-46043</data>
+  <data key="d3"></data>
+</node>
+<node id="-54232">
+  <data key="d0">14.3734798</data>
+  <data key="d1">51.7563536</data>
+  <data key="d2">-54232</data>
+  <data key="d3"></data>
+</node>
+<node id="-50128">
+  <data key="d0">14.3703252</data>
+  <data key="d1">51.7554745</data>
+  <data key="d2">-50128</data>
+  <data key="d3"></data>
+</node>
+<node id="-54205">
+  <data key="d0">14.3641132</data>
+  <data key="d1">51.7615639</data>
+  <data key="d2">-54205</data>
+  <data key="d3"></data>
+</node>
+<node id="-46011">
+  <data key="d0">14.3631912</data>
+  <data key="d1">51.762162</data>
+  <data key="d2">-46011</data>
+  <data key="d3"></data>
+</node>
+<node id="-48055">
+  <data key="d0">14.3599887</data>
+  <data key="d1">51.7515513</data>
+  <data key="d2">-48055</data>
+  <data key="d3"></data>
+</node>
+<node id="-50103">
+  <data key="d0">14.3652972</data>
+  <data key="d1">51.7601191</data>
+  <data key="d2">-50103</data>
+  <data key="d3"></data>
+</node>
+<node id="-54182">
+  <data key="d0">14.3608047</data>
+  <data key="d1">51.7624427</data>
+  <data key="d2">-54182</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-50079">
+  <data key="d0">14.3640383</data>
+  <data key="d1">51.751495</data>
+  <data key="d2">-50079</data>
+  <data key="d3"></data>
+</node>
+<node id="-54173">
+  <data key="d0">14.3639339</data>
+  <data key="d1">51.7514891</data>
+  <data key="d2">-54173</data>
+  <data key="d3"></data>
+</node>
+<node id="-45980">
+  <data key="d0">14.3637737</data>
+  <data key="d1">51.751939</data>
+  <data key="d2">-45980</data>
+  <data key="d3"></data>
+</node>
+<node id="-52125">
+  <data key="d0">14.3685586</data>
+  <data key="d1">51.7534289</data>
+  <data key="d2">-52125</data>
+  <data key="d3"></data>
+</node>
+<node id="-52115">
+  <data key="d0">14.3673186</data>
+  <data key="d1">51.7560741</data>
+  <data key="d2">-52115</data>
+  <data key="d3"></data>
+</node>
+<node id="-52104">
+  <data key="d0">14.3636622</data>
+  <data key="d1">51.7516461</data>
+  <data key="d2">-52104</data>
+  <data key="d3"></data>
+</node>
+<node id="-52103">
+  <data key="d0">14.3607271</data>
+  <data key="d1">51.7563915</data>
+  <data key="d2">-52103</data>
+  <data key="d3"></data>
+</node>
+<node id="-52105">
+  <data key="d0">14.3606874</data>
+  <data key="d1">51.7587594</data>
+  <data key="d2">-52105</data>
+  <data key="d3"></data>
+</node>
+<node id="-48008">
+  <data key="d0">14.3615393</data>
+  <data key="d1">51.757717</data>
+  <data key="d2">-48008</data>
+  <data key="d3"></data>
+</node>
+<node id="-45955">
+  <data key="d0">14.3545521</data>
+  <data key="d1">51.7509144</data>
+  <data key="d2">-45955</data>
+  <data key="d3"></data>
+</node>
+<node id="-45951">
+  <data key="d0">14.3641689</data>
+  <data key="d1">51.7623426</data>
+  <data key="d2">-45951</data>
+  <data key="d3"></data>
+</node>
+<node id="-50044">
+  <data key="d0">14.3727771</data>
+  <data key="d1">51.7568911</data>
+  <data key="d2">-50044</data>
+  <data key="d3"></data>
+</node>
+<node id="-47996">
+  <data key="d0">14.36688511261</data>
+  <data key="d1">51.76211782128</data>
+  <data key="d2">-47996</data>
+  <data key="d3"></data>
+</node>
+<node id="-47993">
+  <data key="d0">14.3711393</data>
+  <data key="d1">51.7545287</data>
+  <data key="d2">-47993</data>
+  <data key="d3"></data>
+</node>
+<node id="-54132">
+  <data key="d0">14.359334</data>
+  <data key="d1">51.755877</data>
+  <data key="d2">-54132</data>
+  <data key="d3"></data>
+</node>
+<node id="-54126">
+  <data key="d0">14.3640916</data>
+  <data key="d1">51.7520245</data>
+  <data key="d2">-54126</data>
+  <data key="d3"></data>
+</node>
+<node id="-54112">
+  <data key="d0">14.3625517</data>
+  <data key="d1">51.7554609</data>
+  <data key="d2">-54112</data>
+  <data key="d3"></data>
+</node>
+<node id="-52062">
+  <data key="d0">14.3591403</data>
+  <data key="d1">51.7570961</data>
+  <data key="d2">-52062</data>
+  <data key="d3"></data>
+</node>
+<node id="-54110">
+  <data key="d0">14.3592936</data>
+  <data key="d1">51.7567058</data>
+  <data key="d2">-54110</data>
+  <data key="d3"></data>
+</node>
+<node id="-54107">
+  <data key="d0">14.3549805</data>
+  <data key="d1">51.7547092</data>
+  <data key="d2">-54107</data>
+  <data key="d3"></data>
+</node>
+<node id="-50007">
+  <data key="d0">14.3625229</data>
+  <data key="d1">51.7624989</data>
+  <data key="d2">-50007</data>
+  <data key="d3"></data>
+</node>
+<node id="-50006">
+  <data key="d0">14.3591301</data>
+  <data key="d1">51.7571439</data>
+  <data key="d2">-50006</data>
+  <data key="d3"></data>
+</node>
+<node id="-50001">
+  <data key="d0">14.3725691</data>
+  <data key="d1">51.7566226</data>
+  <data key="d2">-50001</data>
+  <data key="d3"></data>
+</node>
+<node id="-52044">
+  <data key="d0">14.3677869</data>
+  <data key="d1">51.7528674</data>
+  <data key="d2">-52044</data>
+  <data key="d3"></data>
+</node>
+<node id="-47943">
+  <data key="d0">14.3663085</data>
+  <data key="d1">51.7554943</data>
+  <data key="d2">-47943</data>
+  <data key="d3"></data>
+</node>
+<node id="-52038">
+  <data key="d0">14.3693636</data>
+  <data key="d1">51.7579521</data>
+  <data key="d2">-52038</data>
+  <data key="d3"></data>
+</node>
+<node id="-49985">
+  <data key="d0">14.369616</data>
+  <data key="d1">51.7550931</data>
+  <data key="d2">-49985</data>
+  <data key="d3"></data>
+</node>
+<node id="-47936">
+  <data key="d0">14.3712549</data>
+  <data key="d1">51.7568654</data>
+  <data key="d2">-47936</data>
+  <data key="d3"></data>
+</node>
+<node id="-49981">
+  <data key="d0">14.3609058</data>
+  <data key="d1">51.7524797</data>
+  <data key="d2">-49981</data>
+  <data key="d3"></data>
+</node>
+<node id="-47933">
+  <data key="d0">14.3514097</data>
+  <data key="d1">51.7525492</data>
+  <data key="d2">-47933</data>
+  <data key="d3">traffic_signals</data>
+</node>
+<node id="-52027">
+  <data key="d0">14.3695159</data>
+  <data key="d1">51.7560769</data>
+  <data key="d2">-52027</data>
+  <data key="d3"></data>
+</node>
+<node id="-45881">
+  <data key="d0">14.3667227</data>
+  <data key="d1">51.7507913</data>
+  <data key="d2">-45881</data>
+  <data key="d3"></data>
+</node>
+<node id="-58167">
+  <data key="d0">14.36372513609</data>
+  <data key="d1">51.76042328264</data>
+  <data key="d2">-58167</data>
+  <data key="d3"></data>
+</node>
+<node id="-47925">
+  <data key="d0">14.3547123</data>
+  <data key="d1">51.7508306</data>
+  <data key="d2">-47925</data>
+  <data key="d3"></data>
+</node>
+<node id="-47914">
+  <data key="d0">14.3654617</data>
+  <data key="d1">51.760884</data>
+  <data key="d2">-47914</data>
+  <data key="d3"></data>
+</node>
+<node id="-51999">
+  <data key="d0">14.36085</data>
+  <data key="d1">51.7581553</data>
+  <data key="d2">-51999</data>
+  <data key="d3"></data>
+</node>
+<node id="-51988">
+  <data key="d0">14.3542398</data>
+  <data key="d1">51.7540206</data>
+  <data key="d2">-51988</data>
+  <data key="d3"></data>
+</node>
+<node id="-49939">
+  <data key="d0">14.3518274</data>
+  <data key="d1">51.7526602</data>
+  <data key="d2">-49939</data>
+  <data key="d3"></data>
+</node>
+<node id="-51975">
+  <data key="d0">14.3694774</data>
+  <data key="d1">51.754253</data>
+  <data key="d2">-51975</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-49927">
+  <data key="d0">14.3630542</data>
+  <data key="d1">51.7623968</data>
+  <data key="d2">-49927</data>
+  <data key="d3"></data>
+</node>
+<node id="-51966">
+  <data key="d0">14.3686078</data>
+  <data key="d1">51.760906</data>
+  <data key="d2">-51966</data>
+  <data key="d3"></data>
+</node>
+<node id="-45817">
+  <data key="d0">14.3513182</data>
+  <data key="d1">51.7525023</data>
+  <data key="d2">-45817</data>
+  <data key="d3"></data>
+</node>
+<node id="-45816">
+  <data key="d0">14.3646679</data>
+  <data key="d1">51.7588923</data>
+  <data key="d2">-45816</data>
+  <data key="d3"></data>
+</node>
+<node id="-51957">
+  <data key="d0">14.3660148</data>
+  <data key="d1">51.7556953</data>
+  <data key="d2">-51957</data>
+  <data key="d3"></data>
+</node>
+<node id="-54004">
+  <data key="d0">14.3590349</data>
+  <data key="d1">51.7530674</data>
+  <data key="d2">-54004</data>
+  <data key="d3"></data>
+</node>
+<node id="-45810">
+  <data key="d0">14.3625254</data>
+  <data key="d1">51.7624325</data>
+  <data key="d2">-45810</data>
+  <data key="d3"></data>
+</node>
+<node id="-45805">
+  <data key="d0">14.3749544</data>
+  <data key="d1">51.7580919</data>
+  <data key="d2">-45805</data>
+  <data key="d3"></data>
+</node>
+<node id="-51948">
+  <data key="d0">14.3597909</data>
+  <data key="d1">51.7555985</data>
+  <data key="d2">-51948</data>
+  <data key="d3"></data>
+</node>
+<node id="-49898">
+  <data key="d0">14.3693777</data>
+  <data key="d1">51.7571547</data>
+  <data key="d2">-49898</data>
+  <data key="d3"></data>
+</node>
+<node id="-53993">
+  <data key="d0">14.3630183</data>
+  <data key="d1">51.7568571</data>
+  <data key="d2">-53993</data>
+  <data key="d3"></data>
+</node>
+<node id="-47832">
+  <data key="d0">14.3582117</data>
+  <data key="d1">51.7520827</data>
+  <data key="d2">-47832</data>
+  <data key="d3"></data>
+</node>
+<node id="-53955">
+  <data key="d0">14.3645434</data>
+  <data key="d1">51.7581488</data>
+  <data key="d2">-53955</data>
+  <data key="d3"></data>
+</node>
+<node id="-47800">
+  <data key="d0">14.3603012</data>
+  <data key="d1">51.7622411</data>
+  <data key="d2">-47800</data>
+  <data key="d3"></data>
+</node>
+<node id="-58036">
+  <data key="d0">14.3719732</data>
+  <data key="d1">51.7634676</data>
+  <data key="d2">-58036</data>
+  <data key="d3"></data>
+</node>
+<node id="-47793">
+  <data key="d0">14.3636953</data>
+  <data key="d1">51.7515564</data>
+  <data key="d2">-47793</data>
+  <data key="d3"></data>
+</node>
+<node id="-49837">
+  <data key="d0">14.3517142</data>
+  <data key="d1">51.7523931</data>
+  <data key="d2">-49837</data>
+  <data key="d3"></data>
+</node>
+<node id="-51881">
+  <data key="d0">14.359167</data>
+  <data key="d1">51.7621838</data>
+  <data key="d2">-51881</data>
+  <data key="d3"></data>
+</node>
+<node id="-45721">
+  <data key="d0">14.3664119</data>
+  <data key="d1">51.7563331</data>
+  <data key="d2">-45721</data>
+  <data key="d3"></data>
+</node>
+<node id="-45712">
+  <data key="d0">14.3634357</data>
+  <data key="d1">51.7569203</data>
+  <data key="d2">-45712</data>
+  <data key="d3"></data>
+</node>
+<node id="-53904">
+  <data key="d0">14.3591174</data>
+  <data key="d1">51.7621087</data>
+  <data key="d2">-53904</data>
+  <data key="d3"></data>
+</node>
+<node id="-49806">
+  <data key="d0">14.3589116</data>
+  <data key="d1">51.7551301</data>
+  <data key="d2">-49806</data>
+  <data key="d3">turning_circle</data>
+</node>
+<node id="-45710">
+  <data key="d0">14.3635345</data>
+  <data key="d1">51.7562274</data>
+  <data key="d2">-45710</data>
+  <data key="d3"></data>
+</node>
+<node id="-51853">
+  <data key="d0">14.3669658</data>
+  <data key="d1">51.7550181</data>
+  <data key="d2">-51853</data>
+  <data key="d3"></data>
+</node>
+<node id="-47756">
+  <data key="d0">14.3662602</data>
+  <data key="d1">51.7554237</data>
+  <data key="d2">-47756</data>
+  <data key="d3"></data>
+</node>
+<node id="-47748">
+  <data key="d0">14.3616949</data>
+  <data key="d1">51.7600558</data>
+  <data key="d2">-47748</data>
+  <data key="d3"></data>
+</node>
+<node id="-49796">
+  <data key="d0">14.363822</data>
+  <data key="d1">51.7579333</data>
+  <data key="d2">-49796</data>
+  <data key="d3"></data>
+</node>
+<node id="-47746">
+  <data key="d0">14.3642979</data>
+  <data key="d1">51.7617258</data>
+  <data key="d2">-47746</data>
+  <data key="d3"></data>
+</node>
+<node id="-51845">
+  <data key="d0">14.3700763</data>
+  <data key="d1">51.7614395</data>
+  <data key="d2">-51845</data>
+  <data key="d3"></data>
+</node>
+<node id="-45693">
+  <data key="d0">14.3556093</data>
+  <data key="d1">51.7517514</data>
+  <data key="d2">-45693</data>
+  <data key="d3"></data>
+</node>
+<node id="-51835">
+  <data key="d0">14.3620976</data>
+  <data key="d1">51.7594952</data>
+  <data key="d2">-51835</data>
+  <data key="d3"></data>
+</node>
+<node id="-49787">
+  <data key="d0">14.3657414</data>
+  <data key="d1">51.7596255</data>
+  <data key="d2">-49787</data>
+  <data key="d3"></data>
+</node>
+<node id="-53876">
+  <data key="d0">14.3687202</data>
+  <data key="d1">51.755706</data>
+  <data key="d2">-53876</data>
+  <data key="d3"></data>
+</node>
+<node id="-45682">
+  <data key="d0">14.3626912</data>
+  <data key="d1">51.7556934</data>
+  <data key="d2">-45682</data>
+  <data key="d3"></data>
+</node>
+<node id="-53871">
+  <data key="d0">14.3647147</data>
+  <data key="d1">51.752774</data>
+  <data key="d2">-53871</data>
+  <data key="d3"></data>
+</node>
+<node id="-57964">
+  <data key="d0">14.34981524694</data>
+  <data key="d1">51.7534536234</data>
+  <data key="d2">-57964</data>
+  <data key="d3"></data>
+</node>
+<node id="-47719">
+  <data key="d0">14.3554283</data>
+  <data key="d1">51.7542808</data>
+  <data key="d2">-47719</data>
+  <data key="d3"></data>
+</node>
+<node id="-49766">
+  <data key="d0">14.3685547</data>
+  <data key="d1">51.7569001</data>
+  <data key="d2">-49766</data>
+  <data key="d3"></data>
+</node>
+<node id="-49374">
+  <data key="d0">14.3631729</data>
+  <data key="d1">51.7623217</data>
+  <data key="d2">-49374</data>
+  <data key="d3"></data>
+</node>
+<node id="-49751">
+  <data key="d0">14.3661844</data>
+  <data key="d1">51.7554984</data>
+  <data key="d2">-49751</data>
+  <data key="d3"></data>
+</node>
+<node id="-53842">
+  <data key="d0">14.3610464</data>
+  <data key="d1">51.7524368</data>
+  <data key="d2">-53842</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-57920">
+  <data key="d0">14.36653142674</data>
+  <data key="d1">51.75721156052</data>
+  <data key="d2">-57920</data>
+  <data key="d3"></data>
+</node>
+<node id="-47677">
+  <data key="d0">14.3630058</data>
+  <data key="d1">51.7548418</data>
+  <data key="d2">-47677</data>
+  <data key="d3"></data>
+</node>
+<node id="-57917">
+  <data key="d0">14.36677650099</data>
+  <data key="d1">51.75674640164</data>
+  <data key="d2">-57917</data>
+  <data key="d3"></data>
+</node>
+<node id="-51757">
+  <data key="d0">14.367622</data>
+  <data key="d1">51.7552754</data>
+  <data key="d2">-51757</data>
+  <data key="d3"></data>
+</node>
+<node id="-53765">
+  <data key="d0">14.3585326</data>
+  <data key="d1">51.7620971</data>
+  <data key="d2">-53765</data>
+  <data key="d3"></data>
+</node>
+<node id="-51709">
+  <data key="d0">14.3652127</data>
+  <data key="d1">51.7544529</data>
+  <data key="d2">-51709</data>
+  <data key="d3"></data>
+</node>
+<node id="-55802">
+  <data key="d0">14.3734361</data>
+  <data key="d1">51.7565708</data>
+  <data key="d2">-55802</data>
+  <data key="d3"></data>
+</node>
+<node id="-53747">
+  <data key="d0">14.3654394</data>
+  <data key="d1">51.7543664</data>
+  <data key="d2">-53747</data>
+  <data key="d3"></data>
+</node>
+<node id="-55791">
+  <data key="d0">14.3696311</data>
+  <data key="d1">51.7562569</data>
+  <data key="d2">-55791</data>
+  <data key="d3"></data>
+</node>
+<node id="-49642">
+  <data key="d0">14.3630586</data>
+  <data key="d1">51.7623211</data>
+  <data key="d2">-49642</data>
+  <data key="d3"></data>
+</node>
+<node id="-49626">
+  <data key="d0">14.3726094</data>
+  <data key="d1">51.7567591</data>
+  <data key="d2">-49626</data>
+  <data key="d3"></data>
+</node>
+<node id="-51658">
+  <data key="d0">14.3542736</data>
+  <data key="d1">51.7511573</data>
+  <data key="d2">-51658</data>
+  <data key="d3"></data>
+</node>
+<node id="-49601">
+  <data key="d0">14.3668955</data>
+  <data key="d1">51.7552195</data>
+  <data key="d2">-49601</data>
+  <data key="d3"></data>
+</node>
+<node id="-51641">
+  <data key="d0">14.3666618</data>
+  <data key="d1">51.7621857</data>
+  <data key="d2">-51641</data>
+  <data key="d3"></data>
+</node>
+<node id="-51635">
+  <data key="d0">14.353023</data>
+  <data key="d1">51.7517834</data>
+  <data key="d2">-51635</data>
+  <data key="d3"></data>
+</node>
+<node id="-55716">
+  <data key="d0">14.3669082</data>
+  <data key="d1">51.7521459</data>
+  <data key="d2">-55716</data>
+  <data key="d3"></data>
+</node>
+<node id="-49567">
+  <data key="d0">14.3551323</data>
+  <data key="d1">51.7548419</data>
+  <data key="d2">-49567</data>
+  <data key="d3"></data>
+</node>
+<node id="-49566">
+  <data key="d0">14.3670965</data>
+  <data key="d1">51.7615815</data>
+  <data key="d2">-49566</data>
+  <data key="d3"></data>
+</node>
+<node id="-49554">
+  <data key="d0">14.3639587</data>
+  <data key="d1">51.7515181</data>
+  <data key="d2">-49554</data>
+  <data key="d3"></data>
+</node>
+<node id="-53648">
+  <data key="d0">14.3743273</data>
+  <data key="d1">51.7575902</data>
+  <data key="d2">-53648</data>
+  <data key="d3">turning_circle</data>
+</node>
+<node id="-55689">
+  <data key="d0">14.3538811</data>
+  <data key="d1">51.7511785</data>
+  <data key="d2">-55689</data>
+  <data key="d3"></data>
+</node>
+<node id="-49544">
+  <data key="d0">14.3636408</data>
+  <data key="d1">51.7620407</data>
+  <data key="d2">-49544</data>
+  <data key="d3"></data>
+</node>
+<node id="-51587">
+  <data key="d0">14.3646203</data>
+  <data key="d1">51.7614134</data>
+  <data key="d2">-51587</data>
+  <data key="d3"></data>
+</node>
+<node id="-47486">
+  <data key="d0">14.3594254</data>
+  <data key="d1">51.7506262</data>
+  <data key="d2">-47486</data>
+  <data key="d3"></data>
+</node>
+<node id="-47482">
+  <data key="d0">14.3678382</data>
+  <data key="d1">51.7528444</data>
+  <data key="d2">-47482</data>
+  <data key="d3"></data>
+</node>
+<node id="-51578">
+  <data key="d0">14.3592265</data>
+  <data key="d1">51.7624462</data>
+  <data key="d2">-51578</data>
+  <data key="d3"></data>
+</node>
+<node id="-49522">
+  <data key="d0">14.3537824</data>
+  <data key="d1">51.751233</data>
+  <data key="d2">-49522</data>
+  <data key="d3"></data>
+</node>
+<node id="-49519">
+  <data key="d0">14.3591679</data>
+  <data key="d1">51.7556293</data>
+  <data key="d2">-49519</data>
+  <data key="d3"></data>
+</node>
+<node id="-55663">
+  <data key="d0">14.3547525</data>
+  <data key="d1">51.7508689</data>
+  <data key="d2">-55663</data>
+  <data key="d3"></data>
+</node>
+<node id="-49514">
+  <data key="d0">14.3641122</data>
+  <data key="d1">51.7520176</data>
+  <data key="d2">-49514</data>
+  <data key="d3"></data>
+</node>
+<node id="-49512">
+  <data key="d0">14.3652681</data>
+  <data key="d1">51.7510488</data>
+  <data key="d2">-49512</data>
+  <data key="d3"></data>
+</node>
+<node id="-55656">
+  <data key="d0">14.3728619</data>
+  <data key="d1">51.7568502</data>
+  <data key="d2">-55656</data>
+  <data key="d3"></data>
+</node>
+<node id="-47463">
+  <data key="d0">14.3585917</data>
+  <data key="d1">51.7625026</data>
+  <data key="d2">-47463</data>
+  <data key="d3">traffic_signals</data>
+</node>
+<node id="-53600">
+  <data key="d0">14.3645218</data>
+  <data key="d1">51.7528262</data>
+  <data key="d2">-53600</data>
+  <data key="d3"></data>
+</node>
+<node id="-55644">
+  <data key="d0">14.3703958</data>
+  <data key="d1">51.7561841</data>
+  <data key="d2">-55644</data>
+  <data key="d3"></data>
+</node>
+<node id="-47452">
+  <data key="d0">14.359107</data>
+  <data key="d1">51.7597104</data>
+  <data key="d2">-47452</data>
+  <data key="d3"></data>
+</node>
+<node id="-47450">
+  <data key="d0">14.3632746</data>
+  <data key="d1">51.7607793</data>
+  <data key="d2">-47450</data>
+  <data key="d3"></data>
+</node>
+<node id="-55641">
+  <data key="d0">14.3720245</data>
+  <data key="d1">51.7517695</data>
+  <data key="d2">-55641</data>
+  <data key="d3"></data>
+</node>
+<node id="-47448">
+  <data key="d0">14.3643694</data>
+  <data key="d1">51.7502156</data>
+  <data key="d2">-47448</data>
+  <data key="d3"></data>
+</node>
+<node id="-47446">
+  <data key="d0">14.3610645</data>
+  <data key="d1">51.7576323</data>
+  <data key="d2">-47446</data>
+  <data key="d3"></data>
+</node>
+<node id="-49483">
+  <data key="d0">14.3637068</data>
+  <data key="d1">51.7623707</data>
+  <data key="d2">-49483</data>
+  <data key="d3"></data>
+</node>
+<node id="-55601">
+  <data key="d0">14.353404</data>
+  <data key="d1">51.7523967</data>
+  <data key="d2">-55601</data>
+  <data key="d3"></data>
+</node>
+<node id="-49456">
+  <data key="d0">14.3690159</data>
+  <data key="d1">51.7515233</data>
+  <data key="d2">-49456</data>
+  <data key="d3"></data>
+</node>
+<node id="-53553">
+  <data key="d0">14.3651003</data>
+  <data key="d1">51.7595287</data>
+  <data key="d2">-53553</data>
+  <data key="d3"></data>
+</node>
+<node id="-53547">
+  <data key="d0">14.3625248</data>
+  <data key="d1">51.7623842</data>
+  <data key="d2">-53547</data>
+  <data key="d3"></data>
+</node>
+<node id="-47392">
+  <data key="d0">14.3596324</data>
+  <data key="d1">51.755918</data>
+  <data key="d2">-47392</data>
+  <data key="d3"></data>
+</node>
+<node id="-53534">
+  <data key="d0">14.3569792</data>
+  <data key="d1">51.753163</data>
+  <data key="d2">-53534</data>
+  <data key="d3"></data>
+</node>
+<node id="-53536">
+  <data key="d0">14.3528035</data>
+  <data key="d1">51.751825</data>
+  <data key="d2">-53536</data>
+  <data key="d3"></data>
+</node>
+<node id="-49437">
+  <data key="d0">14.3639715</data>
+  <data key="d1">51.7614111</data>
+  <data key="d2">-49437</data>
+  <data key="d3"></data>
+</node>
+<node id="-47385">
+  <data key="d0">14.3655626</data>
+  <data key="d1">51.7598496</data>
+  <data key="d2">-47385</data>
+  <data key="d3"></data>
+</node>
+<node id="-53535">
+  <data key="d0">14.3653079</data>
+  <data key="d1">51.7612723</data>
+  <data key="d2">-53535</data>
+  <data key="d3"></data>
+</node>
+<node id="-55570">
+  <data key="d0">14.3701427</data>
+  <data key="d1">51.7572443</data>
+  <data key="d2">-55570</data>
+  <data key="d3"></data>
+</node>
+<node id="-55559">
+  <data key="d0">14.3550534</data>
+  <data key="d1">51.7511746</data>
+  <data key="d2">-55559</data>
+  <data key="d3"></data>
+</node>
+<node id="-53510">
+  <data key="d0">14.3686556</data>
+  <data key="d1">51.7570425</data>
+  <data key="d2">-53510</data>
+  <data key="d3"></data>
+</node>
+<node id="-55555">
+  <data key="d0">14.365173</data>
+  <data key="d1">51.7579123</data>
+  <data key="d2">-55555</data>
+  <data key="d3"></data>
+</node>
+<node id="-53487">
+  <data key="d0">14.3650819</data>
+  <data key="d1">51.7595712</data>
+  <data key="d2">-53487</data>
+  <data key="d3"></data>
+</node>
+<node id="-47340">
+  <data key="d0">14.3515648</data>
+  <data key="d1">51.7524722</data>
+  <data key="d2">-47340</data>
+  <data key="d3"></data>
+</node>
+<node id="-57578">
+  <data key="d0">14.37872785383</data>
+  <data key="d1">51.75927136023</data>
+  <data key="d2">-57578</data>
+  <data key="d3"></data>
+</node>
+<node id="-55528">
+  <data key="d0">14.3703623</data>
+  <data key="d1">51.7555082</data>
+  <data key="d2">-55528</data>
+  <data key="d3"></data>
+</node>
+<node id="-51431">
+  <data key="d0">14.3516538</data>
+  <data key="d1">51.7526648</data>
+  <data key="d2">-51431</data>
+  <data key="d3"></data>
+</node>
+<node id="-55525">
+  <data key="d0">14.3694194</data>
+  <data key="d1">51.7570593</data>
+  <data key="d2">-55525</data>
+  <data key="d3"></data>
+</node>
+<node id="-53471">
+  <data key="d0">14.3629072</data>
+  <data key="d1">51.7604729</data>
+  <data key="d2">-53471</data>
+  <data key="d3"></data>
+</node>
+<node id="-55505">
+  <data key="d0">14.3562757</data>
+  <data key="d1">51.7543646</data>
+  <data key="d2">-55505</data>
+  <data key="d3"></data>
+</node>
+<node id="-55503">
+  <data key="d0">14.351685</data>
+  <data key="d1">51.7525332</data>
+  <data key="d2">-55503</data>
+  <data key="d3"></data>
+</node>
+<node id="-47302">
+  <data key="d0">14.3692789</data>
+  <data key="d1">51.7558979</data>
+  <data key="d2">-47302</data>
+  <data key="d3"></data>
+</node>
+<node id="-55493">
+  <data key="d0">14.3597856</data>
+  <data key="d1">51.7622773</data>
+  <data key="d2">-55493</data>
+  <data key="d3"></data>
+</node>
+<node id="-47298">
+  <data key="d0">14.363776</data>
+  <data key="d1">51.7520049</data>
+  <data key="d2">-47298</data>
+  <data key="d3"></data>
+</node>
+<node id="-51390">
+  <data key="d0">14.3592066</data>
+  <data key="d1">51.7578136</data>
+  <data key="d2">-51390</data>
+  <data key="d3"></data>
+</node>
+<node id="-53435">
+  <data key="d0">14.3644364</data>
+  <data key="d1">51.7528543</data>
+  <data key="d2">-53435</data>
+  <data key="d3"></data>
+</node>
+<node id="-47290">
+  <data key="d0">14.3613483</data>
+  <data key="d1">51.7500219</data>
+  <data key="d2">-47290</data>
+  <data key="d3"></data>
+</node>
+<node id="-51375">
+  <data key="d0">14.3517623</data>
+  <data key="d1">51.7528803</data>
+  <data key="d2">-51375</data>
+  <data key="d3"></data>
+</node>
+<node id="-53418">
+  <data key="d0">14.3604121</data>
+  <data key="d1">51.7622155</data>
+  <data key="d2">-53418</data>
+  <data key="d3"></data>
+</node>
+<node id="-51369">
+  <data key="d0">14.3681863</data>
+  <data key="d1">51.7517654</data>
+  <data key="d2">-51369</data>
+  <data key="d3"></data>
+</node>
+<node id="-55460">
+  <data key="d0">14.3578659</data>
+  <data key="d1">51.7551459</data>
+  <data key="d2">-55460</data>
+  <data key="d3"></data>
+</node>
+<node id="-55456">
+  <data key="d0">14.3637943</data>
+  <data key="d1">51.7516867</data>
+  <data key="d2">-55456</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-55451">
+  <data key="d0">14.3620593</data>
+  <data key="d1">51.75092</data>
+  <data key="d2">-55451</data>
+  <data key="d3"></data>
+</node>
+<node id="-51351">
+  <data key="d0">14.3611089</data>
+  <data key="d1">51.7623343</data>
+  <data key="d2">-51351</data>
+  <data key="d3"></data>
+</node>
+<node id="-47252">
+  <data key="d0">14.3594118</data>
+  <data key="d1">51.7579966</data>
+  <data key="d2">-47252</data>
+  <data key="d3"></data>
+</node>
+<node id="-47242">
+  <data key="d0">14.3589688</data>
+  <data key="d1">51.7623858</data>
+  <data key="d2">-47242</data>
+  <data key="d3"></data>
+</node>
+<node id="-51334">
+  <data key="d0">14.3662883</data>
+  <data key="d1">51.7554686</data>
+  <data key="d2">-51334</data>
+  <data key="d3"></data>
+</node>
+<node id="-47236">
+  <data key="d0">14.3602706</data>
+  <data key="d1">51.7514662</data>
+  <data key="d2">-47236</data>
+  <data key="d3"></data>
+</node>
+<node id="-49282">
+  <data key="d0">14.3592014</data>
+  <data key="d1">51.76125</data>
+  <data key="d2">-49282</data>
+  <data key="d3"></data>
+</node>
+<node id="-51327">
+  <data key="d0">14.3672985</data>
+  <data key="d1">51.7561789</data>
+  <data key="d2">-51327</data>
+  <data key="d3"></data>
+</node>
+<node id="-51322">
+  <data key="d0">14.3591638</data>
+  <data key="d1">51.7623875</data>
+  <data key="d2">-51322</data>
+  <data key="d3">traffic_signals</data>
+</node>
+<node id="-53365">
+  <data key="d0">14.3660869</data>
+  <data key="d1">51.7554726</data>
+  <data key="d2">-53365</data>
+  <data key="d3"></data>
+</node>
+<node id="-53362">
+  <data key="d0">14.3732243</data>
+  <data key="d1">51.7487403</data>
+  <data key="d2">-53362</data>
+  <data key="d3"></data>
+</node>
+<node id="-47215">
+  <data key="d0">14.3674123</data>
+  <data key="d1">51.7567883</data>
+  <data key="d2">-47215</data>
+  <data key="d3"></data>
+</node>
+<node id="-53354">
+  <data key="d0">14.3642139</data>
+  <data key="d1">51.7617068</data>
+  <data key="d2">-53354</data>
+  <data key="d3"></data>
+</node>
+<node id="-49254">
+  <data key="d0">14.3687353</data>
+  <data key="d1">51.7556908</data>
+  <data key="d2">-49254</data>
+  <data key="d3"></data>
+</node>
+<node id="-49246">
+  <data key="d0">14.3603961</data>
+  <data key="d1">51.7520708</data>
+  <data key="d2">-49246</data>
+  <data key="d3"></data>
+</node>
+<node id="-55384">
+  <data key="d0">14.3612367</data>
+  <data key="d1">51.7623457</data>
+  <data key="d2">-55384</data>
+  <data key="d3">crossing</data>
+</node>
+<node id="-53331">
+  <data key="d0">14.3686098</data>
+  <data key="d1">51.7598985</data>
+  <data key="d2">-53331</data>
+  <data key="d3"></data>
+</node>
+<node id="-47185">
+  <data key="d0">14.3643666</data>
+  <data key="d1">51.7619757</data>
+  <data key="d2">-47185</data>
+  <data key="d3"></data>
+</node>
+<node id="-53326">
+  <data key="d0">14.359894</data>
+  <data key="d1">51.7551686</data>
+  <data key="d2">-53326</data>
+  <data key="d3"></data>
+</node>
+<node id="-47183">
+  <data key="d0">14.358956</data>
+  <data key="d1">51.7621043</data>
+  <data key="d2">-47183</data>
+  <data key="d3">traffic_signals</data>
+</node>
+<node id="-53323">
+  <data key="d0">14.3695351</data>
+  <data key="d1">51.7542336</data>
+  <data key="d2">-53323</data>
+  <data key="d3"></data>
+</node>
+<node id="-47179">
+  <data key="d0">14.3602187</data>
+  <data key="d1">51.7625587</data>
+  <data key="d2">-47179</data>
+  <data key="d3"></data>
+</node>
+<node id="-51271">
+  <data key="d0">14.3529668</data>
+  <data key="d1">51.75174</data>
+  <data key="d2">-51271</data>
+  <data key="d3"></data>
+</node>
+<node id="-53314">
+  <data key="d0">14.3559653</data>
+  <data key="d1">51.7545668</data>
+  <data key="d2">-53314</data>
+  <data key="d3"></data>
+</node>
+<node id="-51228">
+  <data key="d0">14.3520952</data>
+  <data key="d1">51.7524762</data>
+  <data key="d2">-51228</data>
+  <data key="d3"></data>
+</node>
+<node id="-55322">
+  <data key="d0">14.3632126</data>
+  <data key="d1">51.7518634</data>
+  <data key="d2">-55322</data>
+  <data key="d3"></data>
+</node>
+<node id="-49176">
+  <data key="d0">14.3693725</data>
+  <data key="d1">51.7578044</data>
+  <data key="d2">-49176</data>
+  <data key="d3"></data>
+</node>
+<node id="-53267">
+  <data key="d0">14.3636135</data>
+  <data key="d1">51.7515795</data>
+  <data key="d2">-53267</data>
+  <data key="d3"></data>
+</node>
+<node id="-47120">
+  <data key="d0">14.36390169412</data>
+  <data key="d1">51.75950602071</data>
+  <data key="d2">-47120</data>
+  <data key="d3"></data>
+</node>
+<node id="-53259">
+  <data key="d0">14.3521068</data>
+  <data key="d1">51.7524203</data>
+  <data key="d2">-53259</data>
+  <data key="d3"></data>
+</node>
+</graph></graphml>

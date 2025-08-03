@@ -1,0 +1,24 @@
+scenarios:
+  - name: base_dh
+    description: "Base case – 4th generation District Heating, standard weather, biomass supply"
+    type: "DH"
+    params:
+      supply_temp: 70
+      return_temp: 40
+      tech: "biomass"
+    weather:
+      file: "data/csv/TRY2015_517475143730_Jahr.dat"
+    network_file: "results/branitz_network.graphml"
+
+  - name: low_temp_dh
+    description: "Low-temperature DH (supply 60°C), improved insulation scenario"
+    type: "DH"
+    params:
+      supply_temp: 60
+      return_temp: 35
+      tech: "biomass"
+    weather:
+      file: "data/csv/TRY2015_517475143730_Jahr.dat"
+    network_file: "results/branitz_network.graphml"
+
+  

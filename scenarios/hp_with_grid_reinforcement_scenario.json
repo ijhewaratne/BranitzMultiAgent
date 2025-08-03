@@ -1,0 +1,14 @@
+{
+  "name": "hp_with_grid_reinforcement",
+  "description": "Heat pumps, grid reinforced for peak hours",
+  "type": "HP",
+  "params": {
+    "cop": 3.5,
+    "grid_reinforcement": true
+  },
+  "weather": {
+    "file": "data/csv/TRY2015_517475143730_Wint.dat"
+  },
+  "network_file": "results/branitz_network.graphml",
+  "building_file": "scenarios/buildings_hp_with_grid_reinforcement.geojson"
+}

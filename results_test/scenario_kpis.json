@@ -1,0 +1,20 @@
+[
+  {
+    "scenario":"base_dh",
+    "type":"DH",
+    "lcoh_eur_per_mwh":176.88,
+    "co2_t_per_a":87.25,
+    "max_pressure_drop_bar":0.7,
+    "pump_energy_kwh":3000,
+    "comment":""
+  },
+  {
+    "scenario":"low_temp_dh",
+    "type":"DH",
+    "lcoh_eur_per_mwh":176.88,
+    "co2_t_per_a":87.25,
+    "max_pressure_drop_bar":0.7,
+    "pump_energy_kwh":3000,
+    "comment":""
+  }
+]

@@ -1,0 +1,3 @@
+scenario,type,lcoh_eur_per_mwh,co2_t_per_a,max_pressure_drop_bar,pump_energy_kwh,comment
+base_dh,DH,176.88,87.25,0.7,3000,
+low_temp_dh,DH,176.88,87.25,0.7,3000,

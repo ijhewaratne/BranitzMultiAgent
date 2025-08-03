@@ -1,0 +1,5 @@
+scenario,type,lcoh_eur_per_mwh,co2_t_per_a,max_pressure_drop_bar,pump_energy_kwh,comment,max_feeder_load_percent,transformer_overloads
+base_dh,DH,176.88,87.25,0.7,3000.0,,,
+low_temp_dh,DH,176.88,87.25,0.7,3000.0,,,
+full_hp,HP,110.37,99.43,,,,82.0,1.0
+hp_with_grid_reinforcement,HP,110.37,99.43,,,,82.0,1.0

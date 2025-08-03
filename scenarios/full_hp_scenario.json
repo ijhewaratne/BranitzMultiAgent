@@ -1,0 +1,14 @@
+{
+  "name": "full_hp",
+  "description": "Full heat pump rollout, all residential buildings with HP, current grid",
+  "type": "HP",
+  "params": {
+    "cop": 3.5,
+    "grid_reinforcement": false
+  },
+  "weather": {
+    "file": "data/csv/TRY2015_517475143730_Wint.dat"
+  },
+  "network_file": "results/branitz_network.graphml",
+  "building_file": "scenarios/buildings_full_hp.geojson"
+}
