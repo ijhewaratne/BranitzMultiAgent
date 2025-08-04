@@ -7,7 +7,8 @@ from simple_enhanced_tools import (
     run_comprehensive_dh_analysis,
     compare_comprehensive_scenarios,
     analyze_kpi_report,
-    list_available_results
+    list_available_results,
+    generate_comprehensive_kpi_report
 )
 
 # This file defines our enhanced team of specialist agents with comprehensive analysis capabilities.
@@ -132,7 +133,7 @@ AnalysisAgent = Agent(
             "Do not explain, do not add extra text. "
             "After the tool call, wait for the result and present it clearly to the user."
         ),
-        tools=[run_comprehensive_hp_analysis, run_comprehensive_dh_analysis, compare_comprehensive_scenarios]
+        tools=[run_comprehensive_hp_analysis, run_comprehensive_dh_analysis, compare_comprehensive_scenarios, generate_comprehensive_kpi_report]
     )
 )
 

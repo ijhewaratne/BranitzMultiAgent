@@ -15,8 +15,8 @@ run_simulation_runner: true
 run_kpi_calculator: true
 run_llm_reporter: true
 
-llm_model: gpt-4o
-openai_api_key: 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
+llm_model: gemini-1.5-flash-latest
+gemini_api_key: AIzaSyCAJ8eTYICeJ1WP97Z_WNCn7mXOgbQYkQA
 
 output_dir: results_test/
 

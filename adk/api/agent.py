@@ -94,27 +94,30 @@ class Agent:
     
     def act(self, observation):
         # use self.config here if needed
-        # For now, return a simple response object
         # In a real implementation, this would call the LLM and execute tools
         
-        # Try to use OpenAI API if available
+        # Try to use Gemini API if available
         try:
-            import openai
+            import google.generativeai as genai
             
             # Get API key from environment or config
-            api_key = os.environ.get("OPENAI_API_KEY")
+            api_key = os.environ.get("GEMINI_API_KEY")
             if not api_key:
                 # Try to get from config files
                 try:
                     import yaml
                     with open("run_all_test.yaml", "r") as f:
                         config_data = yaml.safe_load(f)
-                        api_key = config_data.get("openai_api_key")
+                        api_key = config_data.get("gemini_api_key")
                 except:
                     pass
             
             if api_key:
-                client = openai.OpenAI(api_key=api_key)
+                # Configure Gemini
+                genai.configure(api_key=api_key)
+                
+                # Get model from config or use default
+                model_name = getattr(self.config, 'model', 'gemini-1.5-flash-latest')
                 
                 # Prepare tools information for the LLM
                 tools_info = ""
@@ -128,20 +131,15 @@ class Agent:
                 # Enhanced system prompt with tool information
                 enhanced_system_prompt = self.system_prompt + tools_info + "\n\nTo use a tool, write: tool_name(arg1, arg2, param1='value1')"
                 
-                # Prepare the message for the LLM
-                messages = [
-                    {"role": "system", "content": enhanced_system_prompt},
-                    {"role": "user", "content": observation}
-                ]
+                # Create Gemini model
+                model = genai.GenerativeModel(model_name)
+                
+                # Prepare the prompt
+                prompt = f"{enhanced_system_prompt}\n\nUser request: {observation}"
                 
                 # Call the LLM
-                response = client.chat.completions.create(
-                    model="gpt-4o",  # Use gpt-4o instead of gemini for now
-                    messages=messages,
-                    max_tokens=1000
-                )
-                
-                llm_response = response.choices[0].message.content
+                response = model.generate_content(prompt)
+                llm_response = response.text
                 
                 # Check for tool calls in the response
                 tool_calls = self.parse_tool_calls(llm_response)
@@ -159,16 +157,10 @@ class Agent:
                     
                     # Send tool results back to LLM for final response
                     tool_results_text = "\n".join(tool_results)
-                    messages.append({"role": "assistant", "content": llm_response})
-                    messages.append({"role": "user", "content": f"Tool execution results:\n{tool_results_text}\n\nPlease provide a final response based on these results."})
+                    follow_up_prompt = f"Tool execution results:\n{tool_results_text}\n\nPlease provide a final response based on these results."
                     
-                    final_response = client.chat.completions.create(
-                        model="gpt-4o",
-                        messages=messages,
-                        max_tokens=1000
-                    )
-                    
-                    llm_response = final_response.choices[0].message.content
+                    final_response = model.generate_content(follow_up_prompt)
+                    llm_response = final_response.text
                 
                 # Create response object
                 response_obj = SimpleNamespace()

@@ -6,6 +6,7 @@ This version ensures that ALL connections follow the street network:
 - Main supply and return pipes follow street segments
 - Service connections follow street segments to buildings
 - No direct connections that bypass street infrastructure
+- NOW INCLUDES: Load profile integration for realistic heat demand patterns
 """
 
 import json
@@ -22,11 +23,19 @@ import warnings
 warnings.filterwarnings('ignore')
 
 class ImprovedDualPipeDHNetwork:
-    """Improved dual-pipe district heating network with strict street-based routing."""
+    """Improved dual-pipe district heating network with strict street-based routing and load profile integration."""
     
-    def __init__(self, results_dir="simulation_outputs"):
+    def __init__(self, results_dir="simulation_outputs", load_profiles_file=None, building_demands_file=None, buildings_file=None):
         self.results_dir = Path(results_dir)
         self.results_dir.mkdir(exist_ok=True)
+        
+        # Load profile data
+        self.load_profiles_file = load_profiles_file
+        self.building_demands_file = building_demands_file
+        self.buildings_file = buildings_file  # Custom buildings file path
+        self.load_profiles = None
+        self.building_demands = None
+        self.current_scenario = "winter_werktag_abendspitze"  # Default scenario
         
         # Data storage
         self.streets_gdf = None
@@ -39,15 +48,151 @@ class ImprovedDualPipeDHNetwork:
         self.network_stats = None
         self.plant_location = None
         
+    def load_load_profile_data(self):
+        """Load load profiles and building demands from JSON files."""
+        print("📊 Loading load profile data...")
+        
+        try:
+            # Load load profiles
+            if self.load_profiles_file and os.path.exists(self.load_profiles_file):
+                with open(self.load_profiles_file, 'r') as f:
+                    self.load_profiles = json.load(f)
+                print(f"✅ Loaded load profiles for {len(self.load_profiles)} buildings")
+            else:
+                print("⚠️ Load profiles file not found, using default heat demand")
+                self.load_profiles = {}
+            
+            # Load building demands
+            if self.building_demands_file and os.path.exists(self.building_demands_file):
+                with open(self.building_demands_file, 'r') as f:
+                    self.building_demands = json.load(f)
+                print(f"✅ Loaded building demands for {len(self.building_demands)} buildings")
+            else:
+                print("⚠️ Building demands file not found, using default values")
+                self.building_demands = {}
+                
+        except Exception as e:
+            print(f"❌ Error loading load profile data: {e}")
+            self.load_profiles = {}
+            self.building_demands = {}
+        
+        return True
+    
+    def set_scenario(self, scenario):
+        """Set the load profile scenario to use for heat demand calculation."""
+        self.current_scenario = scenario
+        print(f"📅 Set load profile scenario to: {scenario}")
+        
+    def calculate_heat_demand_from_load_profile(self, building_id, building_data):
+        """
+        Calculate realistic heat demand from load profiles.
+        
+        Args:
+            building_id: The building identifier
+            building_data: Building data from GeoDataFrame
+            
+        Returns:
+            dict: Heat demand information including peak and annual demand
+        """
+        # Default values
+        default_heat_demand_kw = 10.0
+        default_annual_consumption_kwh = 10000.0
+        
+        # Ensure building_demands is loaded
+        if self.building_demands is None:
+            self.building_demands = {}
+        
+        # Try to get building demand data
+        if building_id in self.building_demands:
+            building_demand = self.building_demands[building_id]
+            annual_consumption_kwh = building_demand.get('jahresverbrauch_kwh', default_annual_consumption_kwh)
+            building_type = building_demand.get('gebaeudefunktion', 'Unknown')
+            building_area_m2 = building_demand.get('nutzflaeche_m2', 100.0)
+        else:
+            annual_consumption_kwh = default_annual_consumption_kwh
+            building_type = building_data.get('gebaeudefunktion', 'Unknown')
+            building_area_m2 = building_data.get('nutzflaeche_m2', 100.0)
+        
+        # Calculate base heat demand (assuming 70% of annual consumption is for heating)
+        base_heat_demand_kwh = annual_consumption_kwh * 0.7
+        
+        # Ensure load_profiles is loaded
+        if self.load_profiles is None:
+            self.load_profiles = {}
+        
+        # Try to get load profile for this building
+        if building_id in self.load_profiles:
+            load_profile = self.load_profiles[building_id]
+            
+            # Get peak load for current scenario
+            if self.current_scenario in load_profile:
+                peak_load_pu = load_profile[self.current_scenario]
+            else:
+                # Fallback to winter evening peak
+                fallback_scenarios = [
+                    'winter_werktag_abendspitze',
+                    'winter_werktag_morgenspitze',
+                    'sommer_werktag_abendspitze'
+                ]
+                peak_load_pu = 0.0
+                for scenario in fallback_scenarios:
+                    if scenario in load_profile:
+                        peak_load_pu = load_profile[scenario]
+                        break
+            
+            # Convert electrical load to heat demand
+            # Assuming heat pump with COP=3.0 for conversion
+            cop = 3.0
+            peak_heat_demand_kw = peak_load_pu * cop
+            
+            # If peak load is very small, use building area-based calculation
+            if peak_heat_demand_kw < 0.1:
+                peak_heat_demand_kw = building_area_m2 * 0.1  # 100 W/m²
+            
+        else:
+            # No load profile available, use building characteristics
+            if building_type == 'Wohnhaus':
+                peak_heat_demand_kw = building_area_m2 * 0.08  # 80 W/m² for residential
+            elif building_type == 'Gebäude für Wirtschaft oder Gewerbe':
+                peak_heat_demand_kw = building_area_m2 * 0.12  # 120 W/m² for commercial
+            elif building_type == 'Garage':
+                peak_heat_demand_kw = 1.0  # Minimal heat demand for garages
+            else:
+                peak_heat_demand_kw = building_area_m2 * 0.1  # 100 W/m² default
+        
+        # Ensure minimum heat demand
+        peak_heat_demand_kw = max(peak_heat_demand_kw, 1.0)
+        
+        # Calculate annual heat demand
+        annual_heat_demand_kwh = peak_heat_demand_kw * 8760 * 0.3  # 30% capacity factor
+        
+        return {
+            'peak_heat_demand_kw': peak_heat_demand_kw,
+            'annual_heat_demand_kwh': annual_heat_demand_kwh,
+            'building_type': building_type,
+            'building_area_m2': building_area_m2,
+            'annual_consumption_kwh': annual_consumption_kwh,
+            'load_profile_available': building_id in self.load_profiles,
+            'scenario_used': self.current_scenario
+        }
+    
     def load_data(self):
         """Load street and building data."""
         print("📁 Loading street and building data...")
         
-        # Load streets
-        self.streets_gdf = gpd.read_file("results_test/streets.geojson")
+        # Load load profile data first
+        self.load_load_profile_data()
         
-        # Load buildings
-        self.buildings_gdf = gpd.read_file("results_test/buildings_prepared.geojson")
+        # Load streets
+        self.streets_gdf = gpd.read_file("data/geojson/strassen_mit_adressenV3.geojson")
+        
+        # Load buildings (use custom file if provided, otherwise default)
+        if self.buildings_file and os.path.exists(self.buildings_file):
+            self.buildings_gdf = gpd.read_file(self.buildings_file)
+            print(f"📁 Using custom buildings file: {self.buildings_file}")
+        else:
+            self.buildings_gdf = gpd.read_file("data/geojson/hausumringe_mit_adressenV3.geojson")
+            print("📁 Using default buildings file")
         
         # Set plant location (CHP plant in Branitz)
         self.plant_location = Point(14.3453979, 51.76274)  # WGS84 coordinates
@@ -221,6 +366,10 @@ class ImprovedDualPipeDHNetwork:
                     nearest_point = street.geometry.interpolate(street.geometry.project(building_point))
                     nearest_street = street
             
+            # Calculate heat demand from load profiles
+            building_id = building.get('gebaeude', building.get('id', str(idx)))
+            heat_demand_info = self.calculate_heat_demand_from_load_profile(building_id, building)
+            
             # Create service connection
             service_connection = {
                 'building_id': idx,
@@ -231,7 +380,12 @@ class ImprovedDualPipeDHNetwork:
                 'distance_to_street': min_distance,
                 'street_segment_id': nearest_street.name,
                 'street_name': nearest_street.get('name', f'Street_{nearest_street.name}'),
-                'heating_load_kw': building.get('heating_load_kw', 10)
+                'heating_load_kw': heat_demand_info['peak_heat_demand_kw'],
+                'annual_heat_demand_kwh': heat_demand_info['annual_heat_demand_kwh'],
+                'building_type': heat_demand_info['building_type'],
+                'building_area_m2': heat_demand_info['building_area_m2'],
+                'load_profile_available': heat_demand_info['load_profile_available'],
+                'scenario_used': heat_demand_info['scenario_used']
             }
             
             service_connections.append(service_connection)
@@ -445,6 +599,11 @@ class ImprovedDualPipeDHNetwork:
                     'street_segment_id': service_conn['street_segment_id'],
                     'street_name': service_conn['street_name'],
                     'heating_load_kw': service_conn['heating_load_kw'],
+                    'annual_heat_demand_kwh': service_conn.get('annual_heat_demand_kwh', 0),
+                    'building_type': service_conn.get('building_type', 'Unknown'),
+                    'building_area_m2': service_conn.get('building_area_m2', 0),
+                    'load_profile_available': service_conn.get('load_profile_available', False),
+                    'scenario_used': service_conn.get('scenario_used', 'Unknown'),
                     'pipe_type': 'supply_service',
                     'temperature_c': 70,
                     'flow_direction': 'main_to_building',
@@ -464,6 +623,11 @@ class ImprovedDualPipeDHNetwork:
                     'street_segment_id': service_conn['street_segment_id'],
                     'street_name': service_conn['street_name'],
                     'heating_load_kw': service_conn['heating_load_kw'],
+                    'annual_heat_demand_kwh': service_conn.get('annual_heat_demand_kwh', 0),
+                    'building_type': service_conn.get('building_type', 'Unknown'),
+                    'building_area_m2': service_conn.get('building_area_m2', 0),
+                    'load_profile_available': service_conn.get('load_profile_available', False),
+                    'scenario_used': service_conn.get('scenario_used', 'Unknown'),
                     'pipe_type': 'return_service',
                     'temperature_c': 40,
                     'flow_direction': 'building_to_main',
@@ -511,7 +675,16 @@ class ImprovedDualPipeDHNetwork:
         # Building statistics
         num_buildings = len(self.service_connections)
         total_heat_demand_kw = self.service_connections['heating_load_kw'].sum()
-        total_heat_demand_mwh = total_heat_demand_kw * 8760 / 1000  # Annual demand
+        
+        # Calculate annual heat demand from load profiles if available
+        if 'annual_heat_demand_kwh' in self.service_connections.columns:
+            total_heat_demand_mwh = self.service_connections['annual_heat_demand_kwh'].sum() / 1000
+        else:
+            total_heat_demand_mwh = total_heat_demand_kw * 8760 / 1000  # Fallback calculation
+        
+        # Load profile statistics
+        buildings_with_load_profiles = self.service_connections.get('load_profile_available', pd.Series([False] * len(self.service_connections))).sum()
+        load_profile_coverage = buildings_with_load_profiles / num_buildings if num_buildings > 0 else 0
         
         # Network efficiency
         network_density_km_per_building = total_main_length_km / num_buildings if num_buildings > 0 else 0
@@ -546,7 +719,12 @@ class ImprovedDualPipeDHNetwork:
             'all_connections_follow_streets': all_pipes_follow_streets,
             'no_direct_connections': True,
             'supply_temperature_c': 70,
-            'return_temperature_c': 40
+            'return_temperature_c': 40,
+            # Load profile statistics
+            'buildings_with_load_profiles': int(buildings_with_load_profiles),
+            'load_profile_coverage_percent': round(load_profile_coverage * 100, 1),
+            'current_scenario': self.current_scenario,
+            'load_profiles_used': len(self.load_profiles) > 0
         }
         
         print(f"✅ Dual-pipe network statistics calculated:")
@@ -556,6 +734,8 @@ class ImprovedDualPipeDHNetwork:
         print(f"   - Service pipes: {total_service_length_m:.1f} m total (supply + return)")
         print(f"   - Buildings: {num_buildings}")
         print(f"   - Heat demand: {total_heat_demand_mwh:.2f} MWh/year")
+        print(f"   - Load profiles: {buildings_with_load_profiles}/{num_buildings} buildings ({load_profile_coverage*100:.1f}%)")
+        print(f"   - Scenario: {self.current_scenario}")
         print(f"   - Dual-pipe system: ✅")
         print(f"   - Street-based routing: ✅")
         print(f"   - ALL connections follow streets: ✅")
@@ -937,8 +1117,20 @@ class ImprovedDualPipeDHNetwork:
 
 
 def main():
-    """Main function to create complete dual-pipe network."""
-    network_creator = ImprovedDualPipeDHNetwork()
+    """Main function to create complete dual-pipe network with load profile integration."""
+    # Example usage with load profiles
+    load_profiles_file = "../thesis-data-2/power-sim/gebaeude_lastphasenV2.json"
+    building_demands_file = "../thesis-data-2/power-sim/gebaeude_lastphasenV2_verbrauch.json"
+    
+    network_creator = ImprovedDualPipeDHNetwork(
+        results_dir="simulation_outputs",
+        load_profiles_file=load_profiles_file,
+        building_demands_file=building_demands_file
+    )
+    
+    # Set scenario for load profile analysis
+    network_creator.set_scenario("winter_werktag_abendspitze")
+    
     network_creator.create_complete_dual_pipe_network()
 
 

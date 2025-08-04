@@ -15,4 +15,5 @@ osmnx>=1.2.0
 contextily>=1.4.0
 folium>=0.14.0
 openai>=1.0.0
+google-generativeai>=0.3.0
 adk>=0.1.0
